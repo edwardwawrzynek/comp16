@@ -1,0 +1,22 @@
+module mainIO(clk, adrs, in, out, we, p0, p1);
+input clk;
+input [7:0] adrs;
+reg [7:0] adrsReg;
+input [15:0] in;
+input we;
+output reg [15:0] out;
+reg [15:0] io[15:0];
+
+assign out = io[adrsReg];
+
+always @ (posedge clk)
+	begin
+		if(we)
+			begin
+				io[adrs] <= in;
+			end
+		
+		adrsReg <= adrs;
+	end
+
+endmodule

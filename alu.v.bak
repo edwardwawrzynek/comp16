@@ -1,0 +1,26 @@
+module alu(clk, a, b, result, op);
+input [3:0] op;
+input clk;
+input [15:0] a;
+input [15:0] b;
+output reg [15:0] result;
+always @ (posedge clk)
+	begin
+		case(os)
+			4'b0000: out <= #1 a + b;
+			4'b0001: out <= #1 a - b;
+			4'b0010: out <= #1 a * b;
+			4'b0011: out <= #1 ~ a;
+			4'b0100: out <= #1 a | b;
+			4'b0101: out <= #1 a & b;
+			4'b0110: out <= #1 ! a;
+			4'b0111: out <= #1 a && b;
+			4'b1000: out <= #1 a >> b;
+			4'b1001: out <= #1 a << b;
+			4'b1010: out <= #1 a == b;
+			4'b1011: out <= #1 a > b;
+			4'b1100: out <= #1 a >= b;
+			default: out <= #1 a;
+		endcase
+	end	
+endmodule

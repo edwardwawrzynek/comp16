@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="pll_uart_sim/pll_uart.vo" type="VERILOG" />
+ <topLevel name="pll_uart" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

@@ -1,0 +1,45 @@
+module uartRecFIFO(clk, rdy, rdy_clr, din, data, next, inWaiting);
+input clk;
+input rdy;
+output reg rdy_clr;
+input [7:0] din;
+output [7:0] data;
+input next;
+output [7:0] inWaiting;
+
+reg [255:0] mem [7:0];
+reg [7:0] mem_write_adrs;
+reg [7:0] mem_read_adrs;
+assign inWaiting = mem_write_adrs - mem_read_ards;
+assign data = mem[mem_read_adrs];
+
+parameter STATE_WAIT = 1'b0;
+parameter STATE_WRITE = 1'b1;
+
+reg state = STATE_WAIT;
+
+always @ (posedge clk)
+	begin
+	if(next)
+		begin
+			mem_read_adrs <= mem_read_ards + 1;
+		end
+	case (state)
+	STATE_WAIT:
+		begin
+			rdy_clr <= 1'b0;
+			if(rdy):
+				begin
+					state <= STATE_WRITE;
+				end
+		end
+	STATE_WRITE:
+		begin
+			mem[mem_write_adrs] <= din;
+			mem_write_adrs = mem_write_adrs + 1;
+			rdy_clr <= 1'b1;
+			state <= STATE_WAIT;
+		end
+	end
+endmodule
+

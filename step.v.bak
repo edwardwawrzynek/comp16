@@ -1,0 +1,12 @@
+module step(clk, step);
+//Clock - Delayed
+input clk;
+//2 bit step
+output reg [1:0] step;
+
+always @ (posedge clk)
+begin
+	step <= #1 step + 1;
+end
+
+endmodule

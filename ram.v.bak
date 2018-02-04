@@ -1,0 +1,14 @@
+module RAM(clk, adrs, val);
+input clk;
+input [15:0] adrs;
+output [15:0] val;
+wire [15:0] val;
+//Memory -change size if memory expanded
+reg [15:0] mem[4095:0];
+
+assign val = mem[adrs];
+
+initial begin
+		$readmemh("RAMData.txt", mem);
+end
+endmodule

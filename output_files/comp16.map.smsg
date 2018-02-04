@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at uartRecFIFO.v(23): always construct contains both blocking and non-blocking assignments File: /home/user/comp16/IO/uart/uartRecFIFO.v Line: 23
