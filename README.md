@@ -1,4 +1,4 @@
-#Comp16
-A fpga microcomputer
-Build with Quartus
-Hopefully I'll clean this up
+# Comp16
+A fpga microcomputer <br />
+Build with Quartus <br />
+Hopefully I'll clean this up <br />
