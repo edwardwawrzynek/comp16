@@ -1,5 +1,5 @@
 Flow report for comp16
-Sat Jan 27 20:11:55 2018
+Sun Feb 11 16:05:57 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,16 +40,16 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sat Jan 27 20:10:46 2018       ;
+; Flow Status                     ; Successful - Sun Feb 11 16:05:18 2018       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; comp16                                      ;
 ; Top-level Entity Name           ; comp16                                      ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA4U23C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 1,280 / 15,880 ( 8 % )                      ;
-; Total registers                 ; 780                                         ;
-; Total pins                      ; 21 / 314 ( 7 % )                            ;
+; Logic utilization (in ALMs)     ; 1,264 / 15,880 ( 8 % )                      ;
+; Total registers                 ; 762                                         ;
+; Total pins                      ; 16 / 314 ( 5 % )                            ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 1,050,624 / 2,764,800 ( 38 % )              ;
 ; Total DSP Blocks                ; 1 / 84 ( 1 % )                              ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/27/2018 19:59:27 ;
+; Start date & time ; 02/11/2018 16:00:50 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; comp16              ;
 +-------------------+---------------------+
@@ -78,13 +78,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 220083050252176.151710836711495        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 220083050252176.151839004910538        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll.cmp                                ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll_sim/pll.vo                         ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll_uart.cmp                           ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll_uart_sim/pll_uart.vo               ; --            ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS             ; 2                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -104,11 +105,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:19     ; 1.0                     ; 1088 MB             ; 00:02:36                           ;
-; Fitter                    ; 00:09:12     ; 1.1                     ; 2031 MB             ; 00:16:54                           ;
-; Assembler                 ; 00:00:33     ; 1.0                     ; 1005 MB             ; 00:00:33                           ;
-; TimeQuest Timing Analyzer ; 00:01:06     ; 1.5                     ; 1218 MB             ; 00:01:37                           ;
-; Total                     ; 00:12:10     ; --                      ; --                  ; 00:21:40                           ;
+; Analysis & Synthesis      ; 00:00:47     ; 1.0                     ; 1025 MB             ; 00:01:27                           ;
+; Fitter                    ; 00:03:11     ; 1.1                     ; 2024 MB             ; 00:05:05                           ;
+; Assembler                 ; 00:00:19     ; 1.0                     ; 997 MB              ; 00:00:16                           ;
+; TimeQuest Timing Analyzer ; 00:00:37     ; 1.5                     ; 1216 MB             ; 00:00:55                           ;
+; Total                     ; 00:04:54     ; --                      ; --                  ; 00:07:43                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -8,26 +8,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "VGA_HSYNC",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_VSYNC",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_RED",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_GREEN",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_BLUE",
-					"strict" : false
-				},
-				{
 					"name" : "LED[7]",
 					"strict" : false
 				},
