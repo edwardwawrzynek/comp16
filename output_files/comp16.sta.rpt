@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for comp16
-Sun Feb 11 16:05:57 2018
+Mon Feb 12 19:25:33 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -100,12 +100,12 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.55        ;
+; Average used               ; 1.53        ;
 ; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  54.9%      ;
+;     Processor 2            ;  52.6%      ;
 +----------------------------+-------------+
 
 
@@ -114,7 +114,7 @@ refer to the applicable agreement for further details.
 +---------------+--------+--------------------------+
 ; SDC File Path ; Status ; Read at                  ;
 +---------------+--------+--------------------------+
-; comp16.sdc    ; OK     ; Sun Feb 11 16:05:25 2018 ;
+; comp16.sdc    ; OK     ; Mon Feb 12 19:24:59 2018 ;
 +---------------+--------+--------------------------+
 
 
@@ -606,14 +606,9 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Feb 11 16:05:20 2018
+    Info: Processing started: Mon Feb 12 19:24:54 2018
 Info: Command: quartus_sta comp16 -c comp16
 Info: qsta_default_script.tcl version: #3
-Warning (20013): Ignored 16 assignments for entity "pll_uart" -- entity does not exist in design
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME altera_pll -entity pll_uart -sip pll_uart.sip -library lib_pll_uart was ignored
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 17.0 -entity pll_uart -sip pll_uart.sip -library lib_pll_uart was ignored
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV mwpim -entity pll_uart -sip pll_uart.sip -library lib_pll_uart was ignored
-Warning (20013): Ignored 317 assignments for entity "pll_uart_0002" -- entity does not exist in design
 Info (20032): Parallel compilation is enabled and will use up to 2 processors
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -734,10 +729,10 @@ Info (332146): Worst-case minimum pulse width slack is 1.666
     Info (332119):     9.632               0.000 CLOCK_50 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
-Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 1216 megabytes
-    Info: Processing ended: Sun Feb 11 16:05:57 2018
-    Info: Elapsed time: 00:00:37
+Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1219 megabytes
+    Info: Processing ended: Mon Feb 12 19:25:33 2018
+    Info: Elapsed time: 00:00:39
     Info: Total CPU time (on all processors): 00:00:55
 
 

@@ -1,5 +1,5 @@
 Assembler report for comp16
-Sun Feb 11 16:05:18 2018
+Mon Feb 12 19:24:52 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun Feb 11 16:05:18 2018 ;
+; Assembler Status      ; Successful - Mon Feb 12 19:24:52 2018 ;
 ; Revision Name         ; comp16                                ;
 ; Top-level Entity Name ; comp16                                ;
 ; Family                ; Cyclone V                             ;
@@ -77,12 +77,12 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Feb 11 16:04:59 2018
+    Info: Processing started: Mon Feb 12 19:24:33 2018
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off comp16 -c comp16
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 997 megabytes
-    Info: Processing ended: Sun Feb 11 16:05:18 2018
+    Info: Peak virtual memory: 990 megabytes
+    Info: Processing ended: Mon Feb 12 19:24:52 2018
     Info: Elapsed time: 00:00:19
     Info: Total CPU time (on all processors): 00:00:16
 

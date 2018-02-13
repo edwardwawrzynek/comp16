@@ -1,5 +1,5 @@
 Analysis & Synthesis report for comp16
-Sun Feb 11 16:01:38 2018
+Mon Feb 12 19:21:37 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -63,7 +63,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Feb 11 16:01:38 2018       ;
+; Analysis & Synthesis Status     ; Successful - Mon Feb 12 19:21:37 2018       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; comp16                                      ;
 ; Top-level Entity Name           ; comp16                                      ;
@@ -193,6 +193,7 @@ refer to the applicable agreement for further details.
 +----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                           ; Library ;
 +----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+---------+
+; debugOut.v                       ; yes             ; User Verilog HDL File              ; /home/edward/comp16/debugOut.v                                                         ;         ;
 ; comp16.bdf                       ; yes             ; User Block Diagram/Schematic File  ; /home/edward/comp16/comp16.bdf                                                         ;         ;
 ; central.v                        ; yes             ; User Verilog HDL File              ; /home/edward/comp16/central.v                                                          ;         ;
 ; step.v                           ; yes             ; User Verilog HDL File              ; /home/edward/comp16/step.v                                                             ;         ;
@@ -208,7 +209,6 @@ refer to the applicable agreement for further details.
 ; IO/uart/uartRecFIFO.v            ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/uart/uartRecFIFO.v                                              ;         ;
 ; pll.v                            ; yes             ; User Wizard-Generated File         ; /home/edward/comp16/pll.v                                                              ; pll     ;
 ; pll/pll_0002.v                   ; yes             ; User Verilog HDL File              ; /home/edward/comp16/pll/pll_0002.v                                                     ; pll     ;
-; debugOut.v                       ; yes             ; User Verilog HDL File              ; /home/edward/comp16/debugOut.v                                                         ;         ;
 ; altera_pll.v                     ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altera_pll.v          ;         ;
 ; altsyncram.tdf                   ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
 ; stratix_ram_block.inc            ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
@@ -1011,7 +1011,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:16     ;
+; Top            ; 00:00:13     ;
 +----------------+--------------+
 
 
@@ -1021,11 +1021,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Feb 11 16:00:48 2018
+    Info: Processing started: Mon Feb 12 19:20:57 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off comp16 -c comp16
 Info (20032): Parallel compilation is enabled and will use up to 2 processors
-Info (12021): Found 1 design units, including 1 entities, in source file clkSe.v
-    Info (12023): Found entity 1: clkSe File: /home/edward/comp16/clkSe.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file debugOut.v
+    Info (12023): Found entity 1: debugOut File: /home/edward/comp16/debugOut.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file comp16.bdf
     Info (12023): Found entity 1: comp16
 Info (12021): Found 1 design units, including 1 entities, in source file central.v
@@ -1043,14 +1043,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file pc.v
 Warning (12090): Entity "mux" obtained from "mux.v" instead of from Quartus Prime megafunction library File: /home/edward/comp16/mux.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux.v
     Info (12023): Found entity 1: mux File: /home/edward/comp16/mux.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file outSe.v
-    Info (12023): Found entity 1: outSe File: /home/edward/comp16/outSe.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file DualRam.v
     Info (12023): Found entity 1: DualRAM File: /home/edward/comp16/DualRam.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mainIO.v
     Info (12023): Found entity 1: mainIO File: /home/edward/comp16/mainIO.v Line: 1
-Warning (12019): Can't analyze file -- file IO/7_Seg/segOut.v is missing
-Warning (12019): Can't analyze file -- file IO/Serial/shift.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file IO/uart/receiver.v
     Info (12023): Found entity 1: receiver File: /home/edward/comp16/IO/uart/receiver.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file IO/uart/transmitter.v
@@ -1065,19 +1061,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file pll.v
     Info (12023): Found entity 1: pll File: /home/edward/comp16/pll.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file pll/pll_0002.v
     Info (12023): Found entity 1: pll_0002 File: /home/edward/comp16/pll/pll_0002.v Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file pll_uart.v
-    Info (12023): Found entity 1: pll_uart File: /home/edward/comp16/pll_uart.v Line: 8
-Info (12021): Found 1 design units, including 1 entities, in source file pll_uart/pll_uart_0002.v
-    Info (12023): Found entity 1: pll_uart_0002 File: /home/edward/comp16/pll_uart/pll_uart_0002.v Line: 2
-Warning (12019): Can't analyze file -- file IO/uart/uartClkDivBy16.v is missing
-Warning (12019): Can't analyze file -- file IO/uart/testRdy.v is missing
-Warning (12019): Can't analyze file -- file IO/uart/uartFPGA4FUN.v is missing
-Info (12021): Found 1 design units, including 1 entities, in source file debugOut.v
-    Info (12023): Found entity 1: debugOut File: /home/edward/comp16/debugOut.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file intProc.v
-    Info (12023): Found entity 1: intProc File: /home/edward/comp16/intProc.v Line: 1
-Warning (12019): Can't analyze file -- file vga_controller.vhd is missing
-Warning (12019): Can't analyze file -- file vga_gen_test.v is missing
 Info (12127): Elaborating entity "comp16" for the top level hierarchy
 Info (12128): Elaborating entity "uart" for hierarchy "uart:inst1"
 Info (12128): Elaborating entity "baud_rate_gen" for hierarchy "uart:inst1|baud_rate_gen:uart_baud" File: /home/edward/comp16/IO/uart/uart.v Line: 19
@@ -1249,11 +1232,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/mux_
     Info (12023): Found entity 1: mux_chb File: /home/edward/comp16/db/mux_chb.tdf Line: 22
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 3 registers lost all their fanouts during netlist optimizations.
-Warning (20013): Ignored 16 assignments for entity "pll_uart" -- entity does not exist in design
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME altera_pll -entity pll_uart -sip pll_uart.sip -library lib_pll_uart was ignored
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 17.0 -entity pll_uart -sip pll_uart.sip -library lib_pll_uart was ignored
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV mwpim -entity pll_uart -sip pll_uart.sip -library lib_pll_uart was ignored
-Warning (20013): Ignored 317 assignments for entity "pll_uart_0002" -- entity does not exist in design
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 6 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 2228 device resources after synthesis - the final resource count might be different
@@ -1263,10 +1241,10 @@ Info (21057): Implemented 2228 device resources after synthesis - the final reso
     Info (21064): Implemented 136 RAM segments
     Info (21065): Implemented 2 PLLs
     Info (21062): Implemented 1 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 1080 megabytes
-    Info: Processing ended: Sun Feb 11 16:01:38 2018
-    Info: Elapsed time: 00:00:50
-    Info: Total CPU time (on all processors): 00:01:29
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 10 warnings
+    Info: Peak virtual memory: 1155 megabytes
+    Info: Processing ended: Mon Feb 12 19:21:37 2018
+    Info: Elapsed time: 00:00:40
+    Info: Total CPU time (on all processors): 00:00:57
 
 

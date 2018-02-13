@@ -1,5 +1,5 @@
 Flow report for comp16
-Sun Feb 11 16:05:57 2018
+Mon Feb 12 19:25:32 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sun Feb 11 16:05:18 2018       ;
+; Flow Status                     ; Successful - Mon Feb 12 19:24:52 2018       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; comp16                                      ;
 ; Top-level Entity Name           ; comp16                                      ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/11/2018 16:00:50 ;
+; Start date & time ; 02/12/2018 19:20:59 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; comp16              ;
 +-------------------+---------------------+
@@ -78,13 +78,11 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 220083050252176.151839004910538        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 220083050252176.151848845805096        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll.cmp                                ; --            ; --          ; --         ;
 ; MISC_FILE                           ; pll_sim/pll.vo                         ; --            ; --          ; --         ;
-; MISC_FILE                           ; pll_uart.cmp                           ; --            ; --          ; --         ;
-; MISC_FILE                           ; pll_uart_sim/pll_uart.vo               ; --            ; --          ; --         ;
 ; NUM_PARALLEL_PROCESSORS             ; 2                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -94,8 +92,6 @@ refer to the applicable agreement for further details.
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
 ; SMART_RECOMPILE                     ; On                                     ; Off           ; --          ; --         ;
 ; SPD_FILE                            ; pll.spd                                ; --            ; --          ; --         ;
-; SPD_FILE                            ; pll_uart.spd                           ; --            ; --          ; --         ;
-; SYNTHESIS_ONLY_QIP                  ; On                                     ; --            ; --          ; --         ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                     ; --            ; --          ; --         ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 
@@ -105,11 +101,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:47     ; 1.0                     ; 1025 MB             ; 00:01:27                           ;
-; Fitter                    ; 00:03:11     ; 1.1                     ; 2024 MB             ; 00:05:05                           ;
-; Assembler                 ; 00:00:19     ; 1.0                     ; 997 MB              ; 00:00:16                           ;
-; TimeQuest Timing Analyzer ; 00:00:37     ; 1.5                     ; 1216 MB             ; 00:00:55                           ;
-; Total                     ; 00:04:54     ; --                      ; --                  ; 00:07:43                           ;
+; Analysis & Synthesis      ; 00:00:37     ; 1.0                     ; 1155 MB             ; 00:00:56                           ;
+; Fitter                    ; 00:02:47     ; 1.1                     ; 2018 MB             ; 00:04:19                           ;
+; Assembler                 ; 00:00:19     ; 1.0                     ; 990 MB              ; 00:00:16                           ;
+; TimeQuest Timing Analyzer ; 00:00:38     ; 1.5                     ; 1219 MB             ; 00:00:55                           ;
+; Total                     ; 00:04:21     ; --                      ; --                  ; 00:06:26                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
