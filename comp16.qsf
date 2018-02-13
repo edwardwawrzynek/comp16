@@ -68,48 +68,15 @@ set_global_assignment -name SMART_RECOMPILE ON
 set_location_assignment PIN_AH16 -to KEY[1]
 set_location_assignment PIN_Y15 -to SERIAL_RX
 set_location_assignment PIN_AG28 -to SERIAL_TX
-set_global_assignment -name VERILOG_FILE clkSe.v
-set_global_assignment -name BDF_FILE comp16.bdf
-set_global_assignment -name VERILOG_FILE central.v
-set_global_assignment -name VERILOG_FILE step.v
-set_global_assignment -name VERILOG_FILE manual.v
-set_global_assignment -name SDC_FILE comp16.sdc
-set_global_assignment -name VERILOG_FILE ram.v
-set_global_assignment -name VERILOG_FILE alu.v
-set_global_assignment -name MIF_FILE RAMData.mif
-set_global_assignment -name VERILOG_FILE pc.v
-set_global_assignment -name VERILOG_FILE mux.v
-set_global_assignment -name VERILOG_FILE outSe.v
-set_global_assignment -name VERILOG_FILE DualRam.v
-set_global_assignment -name VERILOG_FILE mainIO.v
-set_global_assignment -name VERILOG_FILE IO/7_Seg/segOut.v
-set_global_assignment -name VERILOG_FILE IO/Serial/shift.v
-set_global_assignment -name HEX_FILE test.hex
-set_global_assignment -name VERILOG_FILE IO/uart/receiver.v
-set_global_assignment -name VERILOG_FILE IO/uart/transmitter.v
-set_global_assignment -name VERILOG_FILE IO/uart/uart.v
-set_global_assignment -name VERILOG_FILE IO/uart/baud_rate_gen.v
-set_global_assignment -name VERILOG_FILE IO/uart/uartRecFIFO.v
-set_global_assignment -name QIP_FILE pll.qip
-set_global_assignment -name SIP_FILE pll.sip
-set_global_assignment -name QIP_FILE pll_uart.qip
-set_global_assignment -name SIP_FILE pll_uart.sip
-set_global_assignment -name VERILOG_FILE IO/uart/uartClkDivBy16.v
-set_global_assignment -name VERILOG_FILE IO/uart/testRdy.v
-set_global_assignment -name VERILOG_FILE IO/uart/uartFPGA4FUN.v
 set_location_assignment PIN_AG20 -to IO[0]
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to SERIAL_RX
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SERIAL_TX
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SERIAL_RX
-set_global_assignment -name VERILOG_FILE debugOut.v
 set_location_assignment PIN_L9 -to SW[1]
 set_location_assignment PIN_H6 -to SW[2]
 set_location_assignment PIN_H5 -to SW[3]
-set_global_assignment -name VERILOG_FILE intProc.v
 set_location_assignment PIN_AA15 -to SERIAL_RTS
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to SERIAL_RTS
-set_global_assignment -name VHDL_FILE vga_controller.vhd
-set_global_assignment -name VERILOG_FILE vga_gen_test.v
 set_location_assignment PIN_AG26 -to VGA_HSYNC
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_HSYNC
 set_location_assignment PIN_AF23 -to VGA_RED
@@ -124,3 +91,24 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_GREEN
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[2]
 set_global_assignment -name NUM_PARALLEL_PROCESSORS 2
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name SOURCE_FILE pll.cmp
+set_global_assignment -name VERILOG_FILE debugOut.v
+set_global_assignment -name BDF_FILE comp16.bdf
+set_global_assignment -name VERILOG_FILE central.v
+set_global_assignment -name VERILOG_FILE step.v
+set_global_assignment -name VERILOG_FILE manual.v
+set_global_assignment -name SDC_FILE comp16.sdc
+set_global_assignment -name VERILOG_FILE ram.v
+set_global_assignment -name VERILOG_FILE alu.v
+set_global_assignment -name MIF_FILE RAMData.mif
+set_global_assignment -name VERILOG_FILE pc.v
+set_global_assignment -name VERILOG_FILE mux.v
+set_global_assignment -name VERILOG_FILE DualRam.v
+set_global_assignment -name VERILOG_FILE mainIO.v
+set_global_assignment -name VERILOG_FILE IO/uart/receiver.v
+set_global_assignment -name VERILOG_FILE IO/uart/transmitter.v
+set_global_assignment -name VERILOG_FILE IO/uart/uart.v
+set_global_assignment -name VERILOG_FILE IO/uart/baud_rate_gen.v
+set_global_assignment -name VERILOG_FILE IO/uart/uartRecFIFO.v
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name SIP_FILE pll.sip
