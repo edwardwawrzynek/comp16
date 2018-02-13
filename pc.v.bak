@@ -1,8 +1,0 @@
-module PC(clk, pc, cond, ce, incr, pcOut);
-input clk;
-input [15:0] pc;
-input [15:0] cond;
-input ce;
-input incr;
-output reg [15:0] pcOut;
-endmodule
