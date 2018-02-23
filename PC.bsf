@@ -12,12 +12,11 @@ functions, and any output files from any of the foregoing
 associated documentation or information are expressly subject 
 to the terms and conditions of the Intel Program License 
 Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Intel and sold by Intel or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
@@ -58,6 +57,13 @@ agreement for further details.
 		(text "incr" (rect 0 0 14 12)(font "Arial" ))
 		(text "incr" (rect 21 91 35 103)(font "Arial" ))
 		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "jmpToff00" (rect 0 0 41 12)(font "Arial" ))
+		(text "jmpToff00" (rect 21 107 62 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
 	)
 	(port
 		(pt 192 32)

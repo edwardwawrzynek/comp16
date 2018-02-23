@@ -232,7 +232,7 @@ VREFB4AN0                    : AF16      : power  :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF17      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF18      :        :                   :         : 4A        :                
 VCCIO4A                      : AF19      : power  :                   : 3.3V    : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AF20      :        :                   :         : 4A        :                
+SERIAL_TX                    : AF20      : output : 3.3-V LVCMOS      :         : 4A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF21      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF22      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF23      :        :                   :         : 4A        :                
@@ -259,7 +259,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AG15      :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG16      :        :                   :         : 4A        :                
 GND                          : AG17      : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG18      :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AG19      :        :                   :         : 4A        :                
+SERIAL_RX                    : AG19      : input  : 3.3-V LVCMOS      :         : 4A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG20      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG21      :        :                   :         : 4A        :                
 VCCIO4A                      : AG22      : power  :                   : 3.3V    : 4A        :                
@@ -268,7 +268,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AG24      :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG25      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG26      :        :                   :         : 4A        :                
 GND                          : AG27      : gnd    :                   :         :           :                
-SERIAL_TX                    : AG28      : output : 3.3-V LVCMOS      :         : 4A        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG28      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH2       :        :                   :         : 3B        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH3       :        :                   :         : 3B        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH4       :        :                   :         : 3B        :                
@@ -283,8 +283,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AH12      :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH13      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH14      :        :                   :         : 4A        :                
 VCCIO4A                      : AH15      : power  :                   : 3.3V    : 4A        :                
-KEY[1]                       : AH16      : input  : 2.5 V             :         : 4A        : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AH17      :        :                   :         : 4A        :                
+KEY[1]                       : AH16      : input  : 3.3-V LVCMOS      :         : 4A        : Y              
+KEY[0]                       : AH17      : input  : 2.5 V             :         : 4A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH18      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH19      :        :                   :         : 4A        :                
 GND                          : AH20      : gnd    :                   :         :           :                
@@ -737,7 +737,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : Y11       :        :                   :      
 GND                          : Y12       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y13       :        :                   :         : 4A        :                
 GND                          : Y14       : gnd    :                   :         :           :                
-SERIAL_RX                    : Y15       : input  : 3.3-V LVCMOS      :         : 4A        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y15       :        :                   :         : 4A        :                
 LED[6]                       : Y16       : output : 2.5 V             :         : 5A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y17       :        :                   :         : 5A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y18       :        :                   :         : 5A        :                

@@ -50,7 +50,6 @@ set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_location_assignment PIN_AH17 -to KEY[0]
 set_location_assignment PIN_W15 -to LED[0]
 set_location_assignment PIN_AA24 -to LED[1]
 set_location_assignment PIN_V16 -to LED[2]
@@ -66,28 +65,15 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
 set_global_assignment -name SMART_RECOMPILE ON
 set_location_assignment PIN_AH16 -to KEY[1]
-set_location_assignment PIN_Y15 -to SERIAL_RX
-set_location_assignment PIN_AG28 -to SERIAL_TX
-set_location_assignment PIN_AG20 -to IO[0]
+set_location_assignment PIN_AG19 -to SERIAL_RX
+set_location_assignment PIN_AF20 -to SERIAL_TX
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to SERIAL_RX
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SERIAL_TX
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SERIAL_RX
 set_location_assignment PIN_L9 -to SW[1]
 set_location_assignment PIN_H6 -to SW[2]
 set_location_assignment PIN_H5 -to SW[3]
-set_location_assignment PIN_AA15 -to SERIAL_RTS
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to SERIAL_RTS
-set_location_assignment PIN_AG26 -to VGA_HSYNC
-set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_HSYNC
-set_location_assignment PIN_AF23 -to VGA_RED
-set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_RED
-set_location_assignment PIN_AH24 -to VGA_VSYNC
-set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_VSYNC
-set_location_assignment PIN_AE22 -to VGA_GREEN
-set_location_assignment PIN_AF21 -to VGA_BLUE
-set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_BLUE
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[3]
-set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_GREEN
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[2]
 set_global_assignment -name NUM_PARALLEL_PROCESSORS 2
 set_global_assignment -name SOURCE_FILE pll.cmp
@@ -111,4 +97,8 @@ set_global_assignment -name VERILOG_FILE IO/uart/baud_rate_gen.v
 set_global_assignment -name VERILOG_FILE IO/uart/uartRecFIFO.v
 set_global_assignment -name QIP_FILE pll.qip
 set_global_assignment -name SIP_FILE pll.sip
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to KEY[1]
+set_location_assignment PIN_AH17 -to KEY[0]
+set_location_assignment PIN_AC23 -to SERIAL_RTS
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SERIAL_RTS
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

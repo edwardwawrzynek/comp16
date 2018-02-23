@@ -1,4 +1,5 @@
-module PC(clk, pc, cond, ce, incr, pcOut);
+module PC(clk, pc, cond, ce, incr, pcOut, jmpToff00);
+input jmpToff00;
 input clk;
 input [15:0] pc;
 input [15:0] cond;
@@ -10,7 +11,7 @@ reg [15:0] pcReg;
 //Output connection
 output [15:0] pcOut;
 
-assign pcOut = ce ? (cond ? pc : pcReg) : pc;
+assign pcOut = jmpToff00 ? 16'hff00 : (ce ? (cond ? pc : pcReg) : pc);
 
 always @ (posedge clk)
 begin

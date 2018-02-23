@@ -20,6 +20,8 @@ always @ (posedge clk)
 			4'b1010: result <= #1 a == b;
 			4'b1011: result <= #1 a > b;
 			4'b1100: result <= #1 a >= b;
+			4'b1101: result <= #1 a || b;
+			4'b1110: result <= #1 a ^ b;
 			default: result <= #1 a;
 		endcase
 	end	

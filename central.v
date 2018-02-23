@@ -303,7 +303,8 @@ begin
 					4'h6:
 						begin
 							regFile[srcReg] <= mdrIn;
-							we <= 16'b0;
+							we[srcReg] <= 1'b1;
+							we[4] <= 1'b1;
 							microReset <= 1'b1;
 						end
 					4'h7:
