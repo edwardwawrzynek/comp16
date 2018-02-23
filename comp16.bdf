@@ -103,7 +103,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 928 328 1096 344)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "KEY[0]" (rect 5 0 40 11)(font "Arial" ))
+	(text "KEY[0]" (rect 5 0 39 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -407,7 +407,7 @@ refer to the applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 152 128))
 	)
-	(annotation_block (parameter)(rect 224 576 430 604))
+	(annotation_block (parameter)(rect 160 560 366 588))
 )
 (symbol
 	(rect -168 16 -8 200)
@@ -940,7 +940,7 @@ refer to the applicable agreement for further details.
 		(pt 192 32)
 		(output)
 		(text "pcOut[15..0]" (rect 0 0 60 11)(font "Arial" ))
-		(text "pcOut[15..0]" (rect 121 27 171 38)(font "Arial" ))
+		(text "pcOut[15..0]" (rect 121 27 181 38)(font "Arial" ))
 		(line (pt 192 32)(pt 176 32)(line_width 3))
 	)
 	(drawing
