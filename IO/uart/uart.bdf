@@ -275,146 +275,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 128 440 280 520)
-	(text "io_port" (rect 5 0 40 11)(font "Arial" ))
-	(text "inst2" (rect 8 64 32 75)(font "Arial" ))
-	(port
-		(pt 0 24)
-		(input)
-		(text "io_clk" (rect 0 0 29 11)(font "Arial" ))
-		(text "io_clk" (rect 21 19 50 30)(font "Arial" ))
-		(line (pt 0 24)(pt 16 24))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "io_we" (rect 0 0 30 11)(font "Arial" ))
-		(text "io_we" (rect 21 27 51 38)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 40)
-		(input)
-		(text "io_addr[7..0]" (rect 0 0 61 11)(font "Arial" ))
-		(text "io_addr[7..0]" (rect 21 35 82 46)(font "Arial" ))
-		(line (pt 0 40)(pt 16 40)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "io_data[15..0]" (rect 0 0 67 11)(font "Arial" ))
-		(text "io_data[15..0]" (rect 21 43 88 54)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 0 56)
-		(input)
-		(text "data[15..0]" (rect 0 0 53 11)(font "Arial" ))
-		(text "data[15..0]" (rect 21 51 74 62)(font "Arial" ))
-		(line (pt 0 56)(pt 16 56)(line_width 3))
-	)
-	(port
-		(pt 152 24)
-		(output)
-		(text "out[15..0]" (rect -48 0 -2 11)(font "Arial" ))
-		(text "out[15..0]" (rect 93 19 139 30)(font "Arial" ))
-		(line (pt 152 24)(pt 136 24)(line_width 3))
-	)
-	(port
-		(pt 152 32)
-		(output)
-		(text "io_out[15..0]" (rect -48 0 13 11)(font "Arial" ))
-		(text "io_out[15..0]" (rect 80 27 141 38)(font "Arial" ))
-		(line (pt 152 32)(pt 136 32)(line_width 3))
-	)
-	(port
-		(pt 152 40)
-		(output)
-		(text "we" (rect -48 0 -33 11)(font "Arial" ))
-		(text "we" (rect 119 35 134 46)(font "Arial" ))
-		(line (pt 152 40)(pt 136 40))
-	)
-	(parameter
-		"io_port"
-		"1"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(drawing
-		(rectangle (rect 16 16 136 64))
-	)
-	(annotation_block (parameter)(rect 128 408 299 438))
-)
-(symbol
-	(rect 128 576 280 656)
-	(text "io_port" (rect 5 0 40 11)(font "Arial" ))
-	(text "inst3" (rect 8 64 32 77)(font "Intel Clear" ))
-	(port
-		(pt 0 24)
-		(input)
-		(text "io_clk" (rect 0 0 29 11)(font "Arial" ))
-		(text "io_clk" (rect 21 19 50 30)(font "Arial" ))
-		(line (pt 0 24)(pt 16 24))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "io_we" (rect 0 0 30 11)(font "Arial" ))
-		(text "io_we" (rect 21 27 51 38)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 40)
-		(input)
-		(text "io_addr[7..0]" (rect 0 0 61 11)(font "Arial" ))
-		(text "io_addr[7..0]" (rect 21 35 82 46)(font "Arial" ))
-		(line (pt 0 40)(pt 16 40)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "io_data[15..0]" (rect 0 0 67 11)(font "Arial" ))
-		(text "io_data[15..0]" (rect 21 43 88 54)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 0 56)
-		(input)
-		(text "data[15..0]" (rect 0 0 53 11)(font "Arial" ))
-		(text "data[15..0]" (rect 21 51 74 62)(font "Arial" ))
-		(line (pt 0 56)(pt 16 56)(line_width 3))
-	)
-	(port
-		(pt 152 24)
-		(output)
-		(text "out[15..0]" (rect -48 0 -2 11)(font "Arial" ))
-		(text "out[15..0]" (rect 93 19 139 30)(font "Arial" ))
-		(line (pt 152 24)(pt 136 24)(line_width 3))
-	)
-	(port
-		(pt 152 32)
-		(output)
-		(text "io_out[15..0]" (rect -48 0 13 11)(font "Arial" ))
-		(text "io_out[15..0]" (rect 80 27 141 38)(font "Arial" ))
-		(line (pt 152 32)(pt 136 32)(line_width 3))
-	)
-	(port
-		(pt 152 40)
-		(output)
-		(text "we" (rect -48 0 -33 11)(font "Arial" ))
-		(text "we" (rect 119 35 134 46)(font "Arial" ))
-		(line (pt 152 40)(pt 136 40))
-	)
-	(parameter
-		"io_port"
-		"3"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(drawing
-		(rectangle (rect 16 16 136 64))
-	)
-	(annotation_block (parameter)(rect 128 536 299 566))
-)
-(symbol
 	(rect 128 720 280 800)
 	(text "io_port" (rect 5 0 40 11)(font "Arial" ))
 	(text "inst4" (rect 8 64 33 77)(font "Intel Clear" ))
@@ -554,6 +414,146 @@ refer to the applicable agreement for further details.
 	)
 	(annotation_block (parameter)(rect 128 824 299 854))
 )
+(symbol
+	(rect 128 576 280 656)
+	(text "io_port" (rect 5 0 40 11)(font "Arial" ))
+	(text "inst3" (rect 8 64 32 75)(font "Arial" ))
+	(port
+		(pt 0 24)
+		(input)
+		(text "io_clk" (rect 0 0 29 11)(font "Arial" ))
+		(text "io_clk" (rect 21 19 50 30)(font "Arial" ))
+		(line (pt 0 24)(pt 16 24))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "io_we" (rect 0 0 30 11)(font "Arial" ))
+		(text "io_we" (rect 21 27 51 38)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "io_addr[7..0]" (rect 0 0 61 11)(font "Arial" ))
+		(text "io_addr[7..0]" (rect 21 35 82 46)(font "Arial" ))
+		(line (pt 0 40)(pt 16 40)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "io_data[15..0]" (rect 0 0 67 11)(font "Arial" ))
+		(text "io_data[15..0]" (rect 21 43 88 54)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "data[15..0]" (rect 0 0 53 11)(font "Arial" ))
+		(text "data[15..0]" (rect 21 51 74 62)(font "Arial" ))
+		(line (pt 0 56)(pt 16 56)(line_width 3))
+	)
+	(port
+		(pt 152 24)
+		(output)
+		(text "out[15..0]" (rect -48 0 -2 11)(font "Arial" ))
+		(text "out[15..0]" (rect 93 19 139 30)(font "Arial" ))
+		(line (pt 152 24)(pt 136 24)(line_width 3))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "io_out[15..0]" (rect -48 0 13 11)(font "Arial" ))
+		(text "io_out[15..0]" (rect 80 27 141 38)(font "Arial" ))
+		(line (pt 152 32)(pt 136 32)(line_width 3))
+	)
+	(port
+		(pt 152 40)
+		(output)
+		(text "we" (rect -48 0 -33 11)(font "Arial" ))
+		(text "we" (rect 119 35 134 46)(font "Arial" ))
+		(line (pt 152 40)(pt 136 40))
+	)
+	(parameter
+		"io_port"
+		"3"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 136 64))
+	)
+	(annotation_block (parameter)(rect 128 536 299 566))
+)
+(symbol
+	(rect 128 440 280 520)
+	(text "io_port" (rect 5 0 40 11)(font "Arial" ))
+	(text "inst2" (rect 8 64 32 75)(font "Arial" ))
+	(port
+		(pt 0 24)
+		(input)
+		(text "io_clk" (rect 0 0 29 11)(font "Arial" ))
+		(text "io_clk" (rect 21 19 50 30)(font "Arial" ))
+		(line (pt 0 24)(pt 16 24))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "io_we" (rect 0 0 30 11)(font "Arial" ))
+		(text "io_we" (rect 21 27 51 38)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "io_addr[7..0]" (rect 0 0 61 11)(font "Arial" ))
+		(text "io_addr[7..0]" (rect 21 35 82 46)(font "Arial" ))
+		(line (pt 0 40)(pt 16 40)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "io_data[15..0]" (rect 0 0 67 11)(font "Arial" ))
+		(text "io_data[15..0]" (rect 21 43 88 54)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "data[15..0]" (rect 0 0 53 11)(font "Arial" ))
+		(text "data[15..0]" (rect 21 51 74 62)(font "Arial" ))
+		(line (pt 0 56)(pt 16 56)(line_width 3))
+	)
+	(port
+		(pt 152 24)
+		(output)
+		(text "out[15..0]" (rect -48 0 -2 11)(font "Arial" ))
+		(text "out[15..0]" (rect 93 19 139 30)(font "Arial" ))
+		(line (pt 152 24)(pt 136 24)(line_width 3))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "io_out[15..0]" (rect -48 0 13 11)(font "Arial" ))
+		(text "io_out[15..0]" (rect 80 27 141 38)(font "Arial" ))
+		(line (pt 152 32)(pt 136 32)(line_width 3))
+	)
+	(port
+		(pt 152 40)
+		(output)
+		(text "we" (rect -48 0 -33 11)(font "Arial" ))
+		(text "we" (rect 119 35 134 46)(font "Arial" ))
+		(line (pt 152 40)(pt 136 40))
+	)
+	(parameter
+		"io_port"
+		"1"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 136 64))
+	)
+	(annotation_block (parameter)(rect 128 408 299 438))
+)
 (connector
 	(pt 8 248)
 	(pt 16 248)
@@ -647,17 +647,8 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 304 480)
-	(pt 280 480)
-)
-(connector
 	(pt 304 392)
 	(pt 304 480)
-)
-(connector
-	(pt 288 528)
-	(pt 288 472)
-	(bus)
 )
 (connector
 	(pt 16 464)
@@ -1061,6 +1052,24 @@ refer to the applicable agreement for further details.
 	(pt 24 936)
 	(pt 64 936)
 )
+(connector
+	(pt 304 480)
+	(pt 288 480)
+)
+(connector
+	(pt 288 480)
+	(pt 280 480)
+)
+(connector
+	(pt 288 528)
+	(pt 288 480)
+	(bus)
+)
+(connector
+	(pt 288 480)
+	(pt 288 472)
+	(bus)
+)
 (junction (pt 16 248))
 (junction (pt -16 528))
 (junction (pt 16 464))
@@ -1077,3 +1086,4 @@ refer to the applicable agreement for further details.
 (junction (pt 0 760))
 (junction (pt -8 768))
 (junction (pt -16 808))
+(junction (pt 288 480))

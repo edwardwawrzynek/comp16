@@ -62,21 +62,21 @@ refer to the applicable agreement for further details.
 		(pt 152 24)
 		(output)
 		(text "out[15..0]" (rect -48 0 -2 11)(font "Arial" ))
-		(text "out[15..0]" (rect 93 19 131 30)(font "Arial" ))
+		(text "out[15..0]" (rect 93 19 139 30)(font "Arial" ))
 		(line (pt 152 24)(pt 136 24)(line_width 3))
 	)
 	(port
 		(pt 152 32)
 		(output)
 		(text "io_out[15..0]" (rect -48 0 13 11)(font "Arial" ))
-		(text "io_out[15..0]" (rect 80 27 131 38)(font "Arial" ))
+		(text "io_out[15..0]" (rect 80 27 141 38)(font "Arial" ))
 		(line (pt 152 32)(pt 136 32)(line_width 3))
 	)
 	(port
 		(pt 152 40)
 		(output)
 		(text "we" (rect -48 0 -33 11)(font "Arial" ))
-		(text "we" (rect 119 35 131 46)(font "Arial" ))
+		(text "we" (rect 119 35 134 46)(font "Arial" ))
 		(line (pt 152 40)(pt 136 40))
 	)
 	(parameter
@@ -87,5 +87,5 @@ refer to the applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 136 64))
 	)
-	(annotation_block (parameter)(rect 216 -16 392 16))
+	(annotation_block (parameter)(rect 216 32 392 64))
 )
