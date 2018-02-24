@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Feb 21 21:01:07 2018
+Analysis & Synthesis Status : Successful - Fri Feb 23 18:32:12 2018
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : comp16
 Top-level Entity Name : comp16
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 708
+Total registers : 472
 Total pins : 17
 Total virtual pins : 0
 Total block memory bits : 1,050,624
