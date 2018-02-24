@@ -75,7 +75,7 @@ set_location_assignment PIN_H6 -to SW[2]
 set_location_assignment PIN_H5 -to SW[3]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[3]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[2]
-set_global_assignment -name NUM_PARALLEL_PROCESSORS 2
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
 set_global_assignment -name SOURCE_FILE pll.cmp
 set_global_assignment -name VERILOG_FILE debugOut.v
 set_global_assignment -name BDF_FILE comp16.bdf

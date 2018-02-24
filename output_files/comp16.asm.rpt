@@ -1,5 +1,5 @@
 Assembler report for comp16
-Fri Feb 23 18:34:02 2018
+Fri Feb 23 18:53:38 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Feb 23 18:34:02 2018 ;
+; Assembler Status      ; Successful - Fri Feb 23 18:53:38 2018 ;
 ; Revision Name         ; comp16                                ;
 ; Top-level Entity Name ; comp16                                ;
 ; Family                ; Cyclone V                             ;
@@ -45,11 +45,39 @@ refer to the applicable agreement for further details.
 +-----------------------+---------------------------------------+
 
 
-+----------------------------------+
-; Assembler Settings               ;
-+--------+---------+---------------+
-; Option ; Setting ; Default Value ;
-+--------+---------+---------------+
++---------------------------------------------------------------------------------------------------------------+
+; Assembler Settings                                                                                            ;
++-----------------------------------------------------------------------------+----------------+----------------+
+; Option                                                                      ; Setting        ; Default Value  ;
++-----------------------------------------------------------------------------+----------------+----------------+
+; Use smart compilation                                                       ; On             ; Off            ;
+; Maximum processors allowed for parallel compilation                         ; 4              ;                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation  ; On             ; On             ;
+; Enable compact report table                                                 ; Off            ; Off            ;
+; Generate compressed bitstreams                                              ; On             ; On             ;
+; Compression mode                                                            ; Off            ; Off            ;
+; Clock source for configuration device                                       ; Internal       ; Internal       ;
+; Clock frequency of the configuration device                                 ; 10 MHZ         ; 10 MHz         ;
+; Divide clock frequency by                                                   ; 1              ; 1              ;
+; Auto user code                                                              ; On             ; On             ;
+; Configuration device                                                        ; Auto           ; Auto           ;
+; Voltage output format                                                       ; Auto discovery ; Auto discovery ;
+; Configuration device auto user code                                         ; Off            ; Off            ;
+; Generate Tabular Text File (.ttf) For Target Device                         ; Off            ; Off            ;
+; Generate Raw Binary File (.rbf) For Target Device                           ; Off            ; Off            ;
+; Generate Hexadecimal (Intel-Format) Output File (.hexout) for Target Device ; Off            ; Off            ;
+; Hexadecimal Output File start address                                       ; 0              ; 0              ;
+; Hexadecimal Output File count direction                                     ; Up             ; Up             ;
+; Release clears before tri-states                                            ; Off            ; Off            ;
+; Auto-restart configuration after error                                      ; On             ; On             ;
+; Enable OCT_DONE                                                             ; Off            ; Off            ;
+; Use Checkered Pattern as Uninitialized RAM Content                          ; Off            ; Off            ;
+; Enable autonomous PCIe HIP mode                                             ; Off            ; Off            ;
+; Generate Serial Vector Format File (.svf) for Target Device                 ; Off            ; Off            ;
+; Generate a JEDEC STAPL Format File (.jam) for Target Device                 ; Off            ; Off            ;
+; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; Off            ; Off            ;
+; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; On             ; On             ;
++-----------------------------------------------------------------------------+----------------+----------------+
 
 
 +---------------------------------------------+
@@ -66,8 +94,8 @@ refer to the applicable agreement for further details.
 +----------------+---------------------+
 ; Option         ; Setting             ;
 +----------------+---------------------+
-; JTAG usercode  ; 0x03012C1F          ;
-; Checksum       ; 0x03012C1F          ;
+; JTAG usercode  ; 0x03029127          ;
+; Checksum       ; 0x03029127          ;
 +----------------+---------------------+
 
 
@@ -77,13 +105,13 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Feb 23 18:33:54 2018
-Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off comp16 -c comp16
+    Info: Processing started: Fri Feb 23 18:53:30 2018
+Info: Command: quartus_asm --read_settings_files=on --write_settings_files=off comp16 -c comp16
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 1006 megabytes
-    Info: Processing ended: Fri Feb 23 18:34:02 2018
-    Info: Elapsed time: 00:00:08
+    Info: Peak virtual memory: 1001 megabytes
+    Info: Processing ended: Fri Feb 23 18:53:39 2018
+    Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:08
 
 

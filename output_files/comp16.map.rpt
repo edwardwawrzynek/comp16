@@ -1,5 +1,5 @@
 Analysis & Synthesis report for comp16
-Fri Feb 23 18:32:12 2018
+Fri Feb 23 18:41:19 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -69,7 +69,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Feb 23 18:32:12 2018       ;
+; Analysis & Synthesis Status     ; Successful - Fri Feb 23 18:41:19 2018       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; comp16                                      ;
 ; Top-level Entity Name           ; comp16                                      ;
@@ -1070,7 +1070,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:08     ;
+; Top            ; 00:00:07     ;
 +----------------+--------------+
 
 
@@ -1080,7 +1080,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Feb 23 18:31:45 2018
+    Info: Processing started: Fri Feb 23 18:40:53 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off comp16 -c comp16
 Info (20032): Parallel compilation is enabled and will use up to 2 processors
 Info (12021): Found 1 design units, including 1 entities, in source file debugOut.v
@@ -1328,9 +1328,9 @@ Info (21057): Implemented 1865 device resources after synthesis - the final reso
     Info (21065): Implemented 2 PLLs
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 29 warnings
-    Info: Peak virtual memory: 1075 megabytes
-    Info: Processing ended: Fri Feb 23 18:32:12 2018
-    Info: Elapsed time: 00:00:27
+    Info: Peak virtual memory: 1079 megabytes
+    Info: Processing ended: Fri Feb 23 18:41:19 2018
+    Info: Elapsed time: 00:00:26
     Info: Total CPU time (on all processors): 00:00:51
 
 
