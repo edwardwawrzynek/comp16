@@ -102,4 +102,5 @@ set_location_assignment PIN_AH17 -to KEY[0]
 set_location_assignment PIN_AC23 -to SERIAL_RTS
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SERIAL_RTS
 set_global_assignment -name VERILOG_FILE IO/io_port.v
+set_global_assignment -name BDF_FILE IO/vga/vga.bdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

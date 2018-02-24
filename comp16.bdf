@@ -69,7 +69,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 1176 688 1344 704)
+	(rect 1296 736 1464 752)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
 	(text "SW[3]" (rect 5 0 35 11)(font "Arial" ))
 	(pt 168 8)
@@ -85,7 +85,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 1176 712 1344 728)
+	(rect 1296 760 1464 776)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
 	(text "SW[2..0]" (rect 5 0 47 11)(font "Arial" ))
 	(pt 168 8)
@@ -133,7 +133,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1600 720 1776 736)
+	(rect 1720 768 1896 784)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "LED[7..0]" (rect 90 0 136 11)(font "Arial" ))
 	(pt 0 8)
@@ -531,7 +531,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1408 696 1576 904)
+	(rect 1528 744 1696 952)
 	(text "debugOut" (rect 5 0 54 11)(font "Arial" ))
 	(text "inst8" (rect 8 192 32 203)(font "Arial" ))
 	(port
@@ -1363,81 +1363,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1408 728)
-	(pt 1400 728)
-)
-(connector
-	(pt 1408 744)
-	(pt 1392 744)
-	(bus)
-)
-(connector
-	(pt 1392 744)
-	(pt 1392 720)
-	(bus)
-)
-(connector
-	(pt 1392 720)
-	(pt 1344 720)
-	(bus)
-)
-(connector
-	(pt 1400 728)
-	(pt 1400 696)
-)
-(connector
-	(pt 1400 696)
-	(pt 1344 696)
-)
-(connector
-	(text "PC[15..0]" (rect 1330 760 1377 773)(font "Intel Clear" ))
-	(pt 1408 776)
-	(pt 1320 776)
-	(bus)
-)
-(connector
-	(text "MAR[15..0]" (rect 1330 776 1386 789)(font "Intel Clear" ))
-	(pt 1408 792)
-	(pt 1320 792)
-	(bus)
-)
-(connector
-	(text "MDR[15..0]" (rect 1330 792 1386 805)(font "Intel Clear" ))
-	(pt 1408 808)
-	(pt 1320 808)
-	(bus)
-)
-(connector
-	(text "CND[15..0]" (rect 1330 808 1385 821)(font "Intel Clear" ))
-	(pt 1408 824)
-	(pt 1320 824)
-	(bus)
-)
-(connector
-	(text "A[15..0]" (rect 1330 824 1370 837)(font "Intel Clear" ))
-	(pt 1408 840)
-	(pt 1320 840)
-	(bus)
-)
-(connector
-	(text "B[15..0]" (rect 1330 840 1370 853)(font "Intel Clear" ))
-	(pt 1408 856)
-	(pt 1320 856)
-	(bus)
-)
-(connector
-	(text "RES[15..0]" (rect 1330 856 1383 869)(font "Intel Clear" ))
-	(pt 1408 872)
-	(pt 1320 872)
-	(bus)
-)
-(connector
-	(text "IODATA[15..0]" (rect 1330 744 1403 757)(font "Intel Clear" ))
-	(pt 1320 760)
-	(pt 1408 760)
-	(bus)
-)
-(connector
 	(pt 704 776)
 	(pt 704 624)
 	(bus)
@@ -1751,11 +1676,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1600 728)
-	(pt 1576 728)
-	(bus)
-)
-(connector
 	(text "IODATA[15..0]" (rect 1130 552 1203 565)(font "Intel Clear" ))
 	(pt 1024 568)
 	(pt 1192 568)
@@ -1881,6 +1801,86 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 776 488)
 	(pt 808 488)
+)
+(connector
+	(pt 1528 776)
+	(pt 1520 776)
+)
+(connector
+	(pt 1528 792)
+	(pt 1512 792)
+	(bus)
+)
+(connector
+	(pt 1512 792)
+	(pt 1512 768)
+	(bus)
+)
+(connector
+	(pt 1512 768)
+	(pt 1464 768)
+	(bus)
+)
+(connector
+	(pt 1520 776)
+	(pt 1520 744)
+)
+(connector
+	(pt 1520 744)
+	(pt 1464 744)
+)
+(connector
+	(text "PC[15..0]" (rect 1450 808 1497 821)(font "Intel Clear" ))
+	(pt 1528 824)
+	(pt 1440 824)
+	(bus)
+)
+(connector
+	(text "MAR[15..0]" (rect 1450 824 1506 837)(font "Intel Clear" ))
+	(pt 1528 840)
+	(pt 1440 840)
+	(bus)
+)
+(connector
+	(text "MDR[15..0]" (rect 1450 840 1506 853)(font "Intel Clear" ))
+	(pt 1528 856)
+	(pt 1440 856)
+	(bus)
+)
+(connector
+	(text "CND[15..0]" (rect 1450 856 1505 869)(font "Intel Clear" ))
+	(pt 1528 872)
+	(pt 1440 872)
+	(bus)
+)
+(connector
+	(text "A[15..0]" (rect 1450 872 1490 885)(font "Intel Clear" ))
+	(pt 1528 888)
+	(pt 1440 888)
+	(bus)
+)
+(connector
+	(text "B[15..0]" (rect 1450 888 1490 901)(font "Intel Clear" ))
+	(pt 1528 904)
+	(pt 1440 904)
+	(bus)
+)
+(connector
+	(text "RES[15..0]" (rect 1450 904 1503 917)(font "Intel Clear" ))
+	(pt 1528 920)
+	(pt 1440 920)
+	(bus)
+)
+(connector
+	(text "IODATA[15..0]" (rect 1450 792 1523 805)(font "Intel Clear" ))
+	(pt 1440 808)
+	(pt 1528 808)
+	(bus)
+)
+(connector
+	(pt 1720 776)
+	(pt 1696 776)
+	(bus)
 )
 (junction (pt 200 272))
 (junction (pt 200 264))
