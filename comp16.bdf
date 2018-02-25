@@ -103,7 +103,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 992 160 1160 176)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "SERIAL_RX" (rect 5 0 69 11)(font "Arial" ))
+	(text "SERIAL_RX" (rect 5 0 68 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1636,12 +1636,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "IODATA[15..0]" (rect 1338 352 1411 365)(font "Intel Clear" ))
-	(pt 1328 368)
-	(pt 1400 368)
-	(bus)
-)
-(connector
 	(pt 1176 168)
 	(pt 1160 168)
 )
@@ -1707,6 +1701,37 @@ refer to the applicable agreement for further details.
 	(pt 1096 432)
 	(bus)
 )
+(connector
+	(pt 1176 400)
+	(pt 1168 400)
+	(bus)
+)
+(connector
+	(pt 1168 400)
+	(pt 1168 440)
+	(bus)
+)
+(connector
+	(pt 1168 440)
+	(pt 1344 440)
+	(bus)
+)
+(connector
+	(pt 1344 440)
+	(pt 1344 368)
+	(bus)
+)
+(connector
+	(pt 1328 368)
+	(pt 1344 368)
+	(bus)
+)
+(connector
+	(text "IODATA[15..0]" (rect 1338 352 1411 365)(font "Intel Clear" ))
+	(pt 1344 368)
+	(pt 1400 368)
+	(bus)
+)
 (junction (pt 200 272))
 (junction (pt 200 264))
 (junction (pt 720 216))
@@ -1729,3 +1754,4 @@ refer to the applicable agreement for further details.
 (junction (pt 1104 392))
 (junction (pt 1096 432))
 (junction (pt 1128 200))
+(junction (pt 1344 368))

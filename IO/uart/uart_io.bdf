@@ -103,7 +103,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect -160 216 8 232)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "clk0" (rect 5 0 27 11)(font "Arial" ))
+	(text "clk0" (rect 5 0 26 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -412,7 +412,7 @@ refer to the applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 136 64))
 	)
-	(annotation_block (parameter)(rect 128 536 299 566))
+	(annotation_block (parameter)(rect 128 528 299 558))
 )
 (symbol
 	(rect 128 720 280 800)
@@ -1083,6 +1083,26 @@ refer to the applicable agreement for further details.
 	(text "p2[15..0]" (rect 74 776 121 789)(font "Intel Clear" ))
 	(pt 120 792)
 	(pt 80 792)
+	(bus)
+)
+(connector
+	(pt 128 632)
+	(pt 120 632)
+	(bus)
+)
+(connector
+	(pt 120 632)
+	(pt 120 568)
+	(bus)
+)
+(connector
+	(pt 120 568)
+	(pt 296 568)
+	(bus)
+)
+(connector
+	(pt 296 568)
+	(pt 296 600)
 	(bus)
 )
 (junction (pt 16 248))
