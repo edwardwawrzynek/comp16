@@ -1,9 +1,9 @@
-	component pll is
+	component pll_vga is
 		port (
 			refclk   : in  std_logic := 'X'; -- clk
 			rst      : in  std_logic := 'X'; -- reset
 			outclk_0 : out std_logic;        -- clk
 			outclk_1 : out std_logic         -- clk
 		);
-	end component pll;
+	end component pll_vga;
 
