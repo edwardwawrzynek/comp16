@@ -1,0 +1,132 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 184 160)
+	(text "VGA_controller" (rect 5 0 69 12)(font "Arial" ))
+	(text "inst" (rect 8 128 20 140)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "pixel_clk" (rect 0 0 33 12)(font "Arial" ))
+		(text "pixel_clk" (rect 21 27 54 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "h_sync" (rect 0 0 30 12)(font "Arial" ))
+		(text "h_sync" (rect 117 27 147 39)(font "Arial" ))
+		(line (pt 168 32)(pt 152 32)(line_width 1))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "v_sync" (rect 0 0 31 12)(font "Arial" ))
+		(text "v_sync" (rect 116 43 147 55)(font "Arial" ))
+		(line (pt 168 48)(pt 152 48)(line_width 1))
+	)
+	(port
+		(pt 168 64)
+		(output)
+		(text "disp_en" (rect 0 0 30 12)(font "Arial" ))
+		(text "disp_en" (rect 117 59 147 71)(font "Arial" ))
+		(line (pt 168 64)(pt 152 64)(line_width 1))
+	)
+	(port
+		(pt 168 80)
+		(output)
+		(text "x[31..0]" (rect 0 0 28 12)(font "Arial" ))
+		(text "x[31..0]" (rect 119 75 147 87)(font "Arial" ))
+		(line (pt 168 80)(pt 152 80)(line_width 3))
+	)
+	(port
+		(pt 168 96)
+		(output)
+		(text "y[31..0]" (rect 0 0 29 12)(font "Arial" ))
+		(text "y[31..0]" (rect 118 91 147 103)(font "Arial" ))
+		(line (pt 168 96)(pt 152 96)(line_width 3))
+	)
+	(parameter
+		"h_pls"
+		"00000000000000000000000001100000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"h_fp"
+		"00000000000000000000000000010000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"h_bp"
+		"00000000000000000000000000110000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"h_pxls"
+		"00000000000000000000001010000000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"h_pol"
+		"0"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"v_pls"
+		"00000000000000000000000000000010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"v_fp"
+		"00000000000000000000000000001100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"v_bp"
+		"00000000000000000000000000100011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"v_pxls"
+		"00000000000000000000000110010000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"v_pol"
+		"1"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"h_per"
+		""
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"v_per"
+		""
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 152 128)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 184 -64 284 16))
+)
