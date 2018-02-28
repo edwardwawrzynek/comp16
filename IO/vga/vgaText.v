@@ -51,7 +51,7 @@ assign text_index = xChar + (10'd40 * yChar);
 
 reg [10:0] real_text_index;
 assign charset_index = text_mem[real_text_index];
-
+assign data_out = charset_index;
 
 assign charset = charset_ram[charset_index];
 
