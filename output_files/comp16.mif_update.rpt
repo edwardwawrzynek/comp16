@@ -1,5 +1,5 @@
 MIF/HEX Update report for comp16
-Fri Feb 23 18:53:29 2018
+Sat Mar 10 17:27:30 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -35,7 +35,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; MIF/HEX Update Summary                                        ;
 +-----------------------+---------------------------------------+
-; MIF/HEX Update Status ; Successful - Fri Feb 23 18:53:29 2018 ;
+; MIF/HEX Update Status ; Successful - Sat Mar 10 17:27:30 2018 ;
 ; Revision Name         ; comp16                                ;
 ; Top-level Entity Name ; comp16                                ;
 ; Family                ; Cyclone V                             ;
@@ -43,13 +43,14 @@ refer to the applicable agreement for further details.
 +-----------------------+---------------------------------------+
 
 
-+---------------------------------+
-; MIF/HEX Update Processed Files  ;
-+---------------------------------+
-; File Name                       ;
-+---------------------------------+
-; /home/edward/comp16/RAMData.mif ;
-+---------------------------------+
++----------------------------------------------------------------+
+; MIF/HEX Update Processed Files                                 ;
++----------------------------------------------------------------+
+; File Name                                                      ;
++----------------------------------------------------------------+
+; /home/edward/comp16/RAMData.mif                                ;
+; /home/edward/comp16/db/comp16.ram1_vgaTextGen_a7372d36.hdl.mif ;
++----------------------------------------------------------------+
 
 
 +-------------------------+
@@ -58,14 +59,17 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime MIF/HEX Update
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Feb 23 18:53:21 2018
+    Info: Processing started: Sat Mar 10 17:27:21 2018
 Info: Command: quartus_cdb comp16 -c comp16 --update_mif
+Warning (39023): Can't find Memory Initialization File charset_new.txt -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File txt_init.txt -- skipped updates for this file
 Info (39024): Processed the following Memory Initialization File(s)
     Info (39025): Processed Memory Initialization File /home/edward/comp16/RAMData.mif File: /home/edward/comp16/RAMData.mif Line: 0
-Info: Quartus Prime MIF/HEX Update was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 1316 megabytes
-    Info: Processing ended: Fri Feb 23 18:53:29 2018
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:08
+    Info (39025): Processed Memory Initialization File /home/edward/comp16/db/comp16.ram1_vgaTextGen_a7372d36.hdl.mif File: /home/edward/comp16/db/comp16.ram1_vgaTextGen_a7372d36.hdl.mif Line: 0
+Info: Quartus Prime MIF/HEX Update was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 1317 megabytes
+    Info: Processing ended: Sat Mar 10 17:27:31 2018
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:10
 
 

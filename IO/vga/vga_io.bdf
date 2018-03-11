@@ -629,19 +629,19 @@ refer to the applicable agreement for further details.
 		(pt 216 32)
 		(output)
 		(text "out" (rect 0 0 16 11)(font "Arial" ))
-		(text "out" (rect 182 27 198 38)(font "Arial" ))
+		(text "out" (rect 182 27 195 38)(font "Arial" ))
 		(line (pt 216 32)(pt 200 32))
 	)
 	(port
 		(pt 216 48)
 		(output)
 		(text "data_out[7..0]" (rect 0 0 67 11)(font "Arial" ))
-		(text "data_out[7..0]" (rect 139 43 206 54)(font "Arial" ))
+		(text "data_out[7..0]" (rect 139 43 195 54)(font "Arial" ))
 		(line (pt 216 48)(pt 200 48)(line_width 3))
 	)
 	(parameter
 		"CHARSET_MEM_FILE"
-		"charset.txt"
+		"charset_new.txt"
 		""
 		(type "PARAMETER_STRING")	)
 	(parameter
@@ -652,7 +652,7 @@ refer to the applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 200 192))
 	)
-	(annotation_block (parameter)(rect 744 16 948 61))
+	(annotation_block (parameter)(rect 744 16 974 61))
 )
 (connector
 	(pt 384 136)
@@ -734,24 +734,8 @@ refer to the applicable agreement for further details.
 	(pt 488 192)
 )
 (connector
-	(pt 488 88)
-	(pt 488 192)
-)
-(connector
-	(pt 488 88)
-	(pt 384 88)
-)
-(connector
 	(pt 744 224)
 	(pt 480 224)
-)
-(connector
-	(pt 480 224)
-	(pt 480 112)
-)
-(connector
-	(pt 480 112)
-	(pt 384 112)
 )
 (connector
 	(pt 1048 80)
@@ -1079,6 +1063,22 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 712 208)
 	(pt 744 208)
+)
+(connector
+	(pt 480 88)
+	(pt 480 224)
+)
+(connector
+	(pt 480 88)
+	(pt 384 88)
+)
+(connector
+	(pt 488 112)
+	(pt 488 192)
+)
+(connector
+	(pt 488 112)
+	(pt 384 112)
 )
 (junction (pt 496 64))
 (junction (pt 992 80))

@@ -18,10 +18,9 @@ input we;
 
 /*Memory Initilization for charsets and text ram*/
 parameter CHARSET_MEM_FILE = "charset.txt";
-parameter TEXT_MEM_FILE = "text.txt";
 
 reg [63:0] charset_ram [0:255];
-reg [7:0] text_mem [0:799];
+reg [7:0] text_mem [0:999];
 
 wire [7:0] charset_index;
 wire [63:0] charset;
@@ -51,7 +50,6 @@ assign text_index = xChar + (10'd40 * yChar);
 
 reg [10:0] real_text_index;
 assign charset_index = text_mem[real_text_index];
-assign data_out = charset_index;
 
 assign charset = charset_ram[charset_index];
 
@@ -71,7 +69,7 @@ begin
 	real_text_index <= text_index;
 end
 
-assign data = text_mem[text_addr];
+assign data_out = text_mem[text_addr];
 always @ (posedge ram_clk)
 begin
 	if (we)
@@ -84,9 +82,6 @@ end
 initial begin
   if (CHARSET_MEM_FILE != "") begin
     $readmemh(CHARSET_MEM_FILE, charset_ram);
-  end
-  if (TEXT_MEM_FILE != "") begin
-    $readmemh(TEXT_MEM_FILE, text_mem);
   end
 end
 
