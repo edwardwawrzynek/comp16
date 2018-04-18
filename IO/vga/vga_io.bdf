@@ -149,7 +149,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1048 -24 1224 -8)
+	(rect 1248 200 1424 216)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "VGA_COL_R[2]" (rect 90 0 169 11)(font "Arial" ))
 	(pt 0 8)
@@ -165,7 +165,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1048 -8 1224 8)
+	(rect 1248 216 1424 232)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "VGA_COL_R[1]" (rect 90 0 166 13)(font "Intel Clear" ))
 	(pt 0 8)
@@ -181,7 +181,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1048 8 1224 24)
+	(rect 1248 232 1424 248)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "VGA_COL_R[0]" (rect 90 0 166 13)(font "Intel Clear" ))
 	(pt 0 8)
@@ -197,7 +197,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1048 24 1224 40)
+	(rect 1248 248 1424 264)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "VGA_COL_G[2]" (rect 90 0 169 11)(font "Arial" ))
 	(pt 0 8)
@@ -213,7 +213,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1048 40 1224 56)
+	(rect 1248 264 1424 280)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "VGA_COL_G[1]" (rect 90 0 166 13)(font "Intel Clear" ))
 	(pt 0 8)
@@ -229,7 +229,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1048 56 1224 72)
+	(rect 1248 280 1424 296)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "VGA_COL_G[0]" (rect 90 0 166 13)(font "Intel Clear" ))
 	(pt 0 8)
@@ -245,7 +245,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1048 72 1224 88)
+	(rect 1248 296 1424 312)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "VGA_COL_B[1]" (rect 90 0 166 13)(font "Intel Clear" ))
 	(pt 0 8)
@@ -261,7 +261,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1048 88 1224 104)
+	(rect 1248 312 1424 328)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "VGA_COL_B[0]" (rect 90 0 166 13)(font "Intel Clear" ))
 	(pt 0 8)
@@ -607,8 +607,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 128)
 		(input)
-		(text "data_in[7..0]" (rect 0 0 61 11)(font "Arial" ))
-		(text "data_in[7..0]" (rect 21 123 82 134)(font "Arial" ))
+		(text "data_in[15..0]" (rect 0 0 67 11)(font "Arial" ))
+		(text "data_in[15..0]" (rect 21 123 88 134)(font "Arial" ))
 		(line (pt 0 128)(pt 16 128)(line_width 3))
 	)
 	(port
@@ -635,13 +635,30 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 216 48)
 		(output)
-		(text "data_out[7..0]" (rect 0 0 67 11)(font "Arial" ))
-		(text "data_out[7..0]" (rect 139 43 195 54)(font "Arial" ))
+		(text "data_out[15..0]" (rect 0 0 74 11)(font "Arial" ))
+		(text "data_out[15..0]" (rect 133 43 195 54)(font "Arial" ))
 		(line (pt 216 48)(pt 200 48)(line_width 3))
+	)
+	(port
+		(pt 216 64)
+		(output)
+		(text "col_out[7..0]" (rect 0 0 60 11)(font "Arial" ))
+		(text "col_out[7..0]" (rect 145 59 195 70)(font "Arial" ))
+		(line (pt 216 64)(pt 200 64)(line_width 3))
 	)
 	(parameter
 		"CHARSET_MEM_FILE"
 		"charset_new.txt"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"BAK_COL_FILE"
+		"for_col.txt"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"FOR_COL_FILE"
+		"bak_col.txt"
 		""
 		(type "PARAMETER_STRING")	)
 	(parameter
@@ -652,7 +669,7 @@ refer to the applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 200 192))
 	)
-	(annotation_block (parameter)(rect 744 16 974 61))
+	(annotation_block (parameter)(rect 744 24 976 56))
 )
 (connector
 	(pt 384 136)
@@ -736,70 +753,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 744 224)
 	(pt 480 224)
-)
-(connector
-	(pt 1048 80)
-	(pt 992 80)
-)
-(connector
-	(pt 1048 64)
-	(pt 992 64)
-)
-(connector
-	(pt 1048 48)
-	(pt 992 48)
-)
-(connector
-	(pt 1048 32)
-	(pt 992 32)
-)
-(connector
-	(pt 1048 16)
-	(pt 992 16)
-)
-(connector
-	(pt 1048 -16)
-	(pt 992 -16)
-)
-(connector
-	(pt 992 0)
-	(pt 1048 0)
-)
-(connector
-	(pt 992 80)
-	(pt 992 96)
-)
-(connector
-	(pt 992 64)
-	(pt 992 80)
-)
-(connector
-	(pt 992 48)
-	(pt 992 64)
-)
-(connector
-	(pt 992 -16)
-	(pt 992 0)
-)
-(connector
-	(pt 992 0)
-	(pt 992 16)
-)
-(connector
-	(pt 992 16)
-	(pt 992 32)
-)
-(connector
-	(pt 992 32)
-	(pt 992 48)
-)
-(connector
-	(pt 960 96)
-	(pt 992 96)
-)
-(connector
-	(pt 992 96)
-	(pt 1048 96)
 )
 (connector
 	(pt 672 64)
@@ -994,20 +947,8 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "data_in[15..0]" (rect 600 424 669 437)(font "Intel Clear" ))
-	(pt 600 440)
-	(pt 648 440)
-	(bus)
-)
-(connector
 	(pt 736 192)
 	(pt 736 440)
-	(bus)
-)
-(connector
-	(text "data_in[7..0]" (rect 674 424 737 437)(font "Intel Clear" ))
-	(pt 736 440)
-	(pt 672 440)
 	(bus)
 )
 (connector
@@ -1031,24 +972,12 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "data_out[15..0]" (rect 616 456 693 469)(font "Intel Clear" ))
-	(pt 616 472)
-	(pt 656 472)
-	(bus)
-)
-(connector
 	(pt 960 112)
 	(pt 968 112)
 	(bus)
 )
 (connector
 	(pt 968 112)
-	(pt 968 472)
-	(bus)
-)
-(connector
-	(text "data_out[7..0]" (rect 722 456 792 469)(font "Intel Clear" ))
-	(pt 672 472)
 	(pt 968 472)
 	(bus)
 )
@@ -1080,14 +1009,63 @@ refer to the applicable agreement for further details.
 	(pt 488 112)
 	(pt 384 112)
 )
+(connector
+	(pt 736 440)
+	(pt 600 440)
+	(bus)
+)
+(connector
+	(pt 968 472)
+	(pt 616 472)
+	(bus)
+)
+(connector
+	(text "COL[7..0]" (rect 997 112 1045 125)(font "Intel Clear" ))
+	(pt 960 128)
+	(pt 1024 128)
+	(bus)
+)
+(connector
+	(text "COL[7]" (rect 1200 192 1236 205)(font "Intel Clear" ))
+	(pt 1184 208)
+	(pt 1248 208)
+)
+(connector
+	(text "COL[6]" (rect 1194 208 1230 221)(font "Intel Clear" ))
+	(pt 1184 224)
+	(pt 1248 224)
+)
+(connector
+	(text "COL[5]" (rect 1195 224 1231 237)(font "Intel Clear" ))
+	(pt 1184 240)
+	(pt 1248 240)
+)
+(connector
+	(text "COL[4]" (rect 1190 240 1226 253)(font "Intel Clear" ))
+	(pt 1184 256)
+	(pt 1248 256)
+)
+(connector
+	(text "COL[3]" (rect 1196 256 1232 269)(font "Intel Clear" ))
+	(pt 1184 272)
+	(pt 1248 272)
+)
+(connector
+	(text "COL[2]" (rect 1209 272 1245 285)(font "Intel Clear" ))
+	(pt 1184 288)
+	(pt 1248 288)
+)
+(connector
+	(text "COL[1]" (rect 1207 288 1243 301)(font "Intel Clear" ))
+	(pt 1184 304)
+	(pt 1248 304)
+)
+(connector
+	(text "COL[0]" (rect 1188 304 1224 317)(font "Intel Clear" ))
+	(pt 1184 320)
+	(pt 1248 320)
+)
 (junction (pt 496 64))
-(junction (pt 992 80))
-(junction (pt 992 64))
-(junction (pt 992 48))
-(junction (pt 992 32))
-(junction (pt 992 0))
-(junction (pt 992 16))
-(junction (pt 992 96))
 (junction (pt 392 304))
 (junction (pt 384 312))
 (junction (pt 376 320))

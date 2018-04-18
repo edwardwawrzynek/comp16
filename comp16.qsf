@@ -64,7 +64,6 @@ set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
 set_global_assignment -name SMART_RECOMPILE ON
-set_location_assignment PIN_AH16 -to KEY[1]
 set_location_assignment PIN_AG19 -to SERIAL_RX
 set_location_assignment PIN_AF20 -to SERIAL_TX
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to SERIAL_RX
@@ -76,10 +75,37 @@ set_location_assignment PIN_H5 -to SW[3]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[3]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[2]
 set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to KEY[1]
 set_location_assignment PIN_AH17 -to KEY[0]
-set_location_assignment PIN_AC23 -to SERIAL_RTS
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to SERIAL_RTS
+set_location_assignment PIN_AE19 -to VGA_COL_B[1]
+set_location_assignment PIN_AG23 -to VGA_COL_B[0]
+set_location_assignment PIN_AF22 -to VGA_COL_G[2]
+set_location_assignment PIN_AC22 -to VGA_COL_G[1]
+set_location_assignment PIN_AE24 -to VGA_COL_G[0]
+set_location_assignment PIN_AA18 -to VGA_COL_R[2]
+set_location_assignment PIN_AD23 -to VGA_COL_R[1]
+set_location_assignment PIN_AG21 -to VGA_COL_R[0]
+set_location_assignment PIN_AH27 -to VGA_SYNC_H
+set_location_assignment PIN_Y15 -to VGA_SYNC_V
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_B[1]
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_B[0]
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_B
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_G[2]
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_G[1]
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_G[0]
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_G
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_R[2]
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_SYNC_V
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_R[1]
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_R[0]
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_R
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to KEY[0]
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_SYNC_H
+set_location_assignment PIN_E11 -to CLOCK_50_2
+set_location_assignment PIN_AA19 -to PS2_DATA
+set_location_assignment PIN_AC23 -to PS2_CLK
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to PS2_CLK
+set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to PS2_DATA
+set_global_assignment -name SOURCE_FILE pll_vga.cmp
 set_global_assignment -name VERILOG_FILE IO/vga/vga_controller.v
 set_global_assignment -name VERILOG_FILE IO/vga/vgaText.v
 set_global_assignment -name SOURCE_FILE pll.cmp
@@ -110,29 +136,11 @@ set_global_assignment -name BSF_FILE IO/uart/uart_io.bsf
 set_global_assignment -name BDF_FILE IO/vga/vga_io.bdf
 set_global_assignment -name QIP_FILE pll_vga.qip
 set_global_assignment -name SIP_FILE pll_vga.sip
-set_location_assignment PIN_AF21 -to VGA_COL_B[1]
-set_location_assignment PIN_AG20 -to VGA_COL_B[0]
-set_location_assignment PIN_AH24 -to VGA_COL_G[2]
-set_location_assignment PIN_AF23 -to VGA_COL_G[1]
-set_location_assignment PIN_AE22 -to VGA_COL_G[0]
-set_location_assignment PIN_AA15 -to VGA_COL_R[2]
-set_location_assignment PIN_AH27 -to VGA_COL_R[1]
-set_location_assignment PIN_AG26 -to VGA_COL_R[0]
-set_location_assignment PIN_Y15 -to VGA_SYNC_H
-set_location_assignment PIN_AG28 -to VGA_SYNC_V
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_B[1]
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_B[0]
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_B
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_G[2]
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_G[1]
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_G[0]
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_G
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_R[2]
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_SYNC_V
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_R[1]
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_R[0]
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_COL_R
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to KEY[0]
-set_instance_assignment -name IO_STANDARD "3.0-V LVCMOS" -to VGA_SYNC_H
-set_location_assignment PIN_E11 -to CLOCK_50_2
+set_global_assignment -name VERILOG_FILE IO/vga/txt_col.v
+set_global_assignment -name BDF_FILE IO/ps2/ps2_io.bdf
+set_global_assignment -name VHDL_FILE IO/ps2/debounce.vhd
+set_global_assignment -name VHDL_FILE IO/ps2/ps2_keyboard.vhd
+set_global_assignment -name VERILOG_FILE IO/ps2/ps2_fifo.v
+set_global_assignment -name VERILOG_FILE IO/ps2/ps2_to_ascii.v
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PS2_DATA
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

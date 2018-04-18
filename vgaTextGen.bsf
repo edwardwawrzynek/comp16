@@ -68,8 +68,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 128)
 		(input)
-		(text "data_in[7..0]" (rect 0 0 48 12)(font "Arial" ))
-		(text "data_in[7..0]" (rect 21 123 69 135)(font "Arial" ))
+		(text "data_in[15..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "data_in[15..0]" (rect 21 123 72 135)(font "Arial" ))
 		(line (pt 0 128)(pt 16 128)(line_width 3))
 	)
 	(port
@@ -96,9 +96,16 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 216 48)
 		(output)
-		(text "data_out[7..0]" (rect 0 0 54 12)(font "Arial" ))
-		(text "data_out[7..0]" (rect 141 43 195 55)(font "Arial" ))
+		(text "data_out[15..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "data_out[15..0]" (rect 138 43 195 55)(font "Arial" ))
 		(line (pt 216 48)(pt 200 48)(line_width 3))
+	)
+	(port
+		(pt 216 64)
+		(output)
+		(text "col_out[7..0]" (rect 0 0 48 12)(font "Arial" ))
+		(text "col_out[7..0]" (rect 147 59 195 71)(font "Arial" ))
+		(line (pt 216 64)(pt 200 64)(line_width 3))
 	)
 	(parameter
 		"CHARSET_MEM_FILE"

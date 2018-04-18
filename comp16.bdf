@@ -69,7 +69,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 864 512 1032 528)
+	(rect 456 648 624 664)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
 	(text "KEY[0]" (rect 5 0 39 11)(font "Arial" ))
 	(pt 168 8)
@@ -103,7 +103,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect -440 232 -264 248)
 	(text "INPUT" (rect 133 0 162 10)(font "Arial" (font_size 6)))
-	(text "CLOCK_50_2" (rect 5 0 76 11)(font "Arial" ))
+	(text "CLOCK_50_2" (rect 5 0 75 11)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12))
@@ -114,6 +114,38 @@ refer to the applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 157 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 912 736 1080 752)
+	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
+	(text "PS2_CLK" (rect 5 0 55 11)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 149 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 912 752 1080 768)
+	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
+	(text "PS2_DATA" (rect 5 0 64 11)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 149 17)(font "Arial" (font_size 6)))
 )
 (pin
 	(output)
@@ -786,7 +818,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 808 472 856 504)
+	(rect 632 640 680 672)
 	(text "NOT" (rect 1 0 22 10)(font "Arial" (font_size 6)))
 	(text "inst11" (rect 3 21 34 34)(font "Intel Clear" ))
 	(port
@@ -1100,14 +1132,14 @@ refer to the applicable agreement for further details.
 		(pt 160 72)
 		(output)
 		(text "outclk_0" (rect 0 0 48 13)(font "Arial" (font_size 8)))
-		(text "outclk_0" (rect 117 61 157 74)(font "Arial" (font_size 8)))
+		(text "outclk_0" (rect 117 61 165 74)(font "Arial" (font_size 8)))
 		(line (pt 160 72)(pt 112 72))
 	)
 	(port
 		(pt 160 112)
 		(output)
 		(text "outclk_1" (rect 0 0 48 13)(font "Arial" (font_size 8)))
-		(text "outclk_1" (rect 119 101 159 114)(font "Arial" (font_size 8)))
+		(text "outclk_1" (rect 119 101 167 114)(font "Arial" (font_size 8)))
 		(line (pt 160 112)(pt 112 112))
 	)
 	(drawing
@@ -1213,6 +1245,110 @@ refer to the applicable agreement for further details.
 		(line (pt 160 0)(pt 160 144))
 		(line (pt 0 144)(pt 160 144))
 		(line (pt 0 0)(pt 0 144))
+	)
+)
+(symbol
+	(rect 1176 712 1384 872)
+	(text "ps2_io" (rect 5 0 43 15)(font "Intel Clear" (font_size 8)))
+	(text "inst12" (rect 8 143 39 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PS2_CLK" (rect 0 0 53 15)(font "Intel Clear" (font_size 8)))
+		(text "PS2_CLK" (rect 21 27 74 42)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "PS2_DATA" (rect 0 0 63 15)(font "Intel Clear" (font_size 8)))
+		(text "PS2_DATA" (rect 21 43 84 58)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "clk0" (rect 0 0 25 15)(font "Intel Clear" (font_size 8)))
+		(text "clk0" (rect 21 59 46 74)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "io_clk" (rect 0 0 34 15)(font "Intel Clear" (font_size 8)))
+		(text "io_clk" (rect 21 75 55 90)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "io_we" (rect 0 0 34 15)(font "Intel Clear" (font_size 8)))
+		(text "io_we" (rect 21 91 55 106)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "io_addr[7..0]" (rect 0 0 73 15)(font "Intel Clear" (font_size 8)))
+		(text "io_addr[7..0]" (rect 21 107 94 122)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "io_data[15..0]" (rect 0 0 79 15)(font "Intel Clear" (font_size 8)))
+		(text "io_data[15..0]" (rect 21 123 100 138)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 208 32)
+		(output)
+		(text "jmpff00" (rect 0 0 47 15)(font "Intel Clear" (font_size 8)))
+		(text "jmpff00" (rect 140 27 187 42)(font "Intel Clear" (font_size 8)))
+		(line (pt 208 32)(pt 192 32))
+	)
+	(port
+		(pt 208 48)
+		(output)
+		(text "io_out[15..0]" (rect 0 0 73 15)(font "Intel Clear" (font_size 8)))
+		(text "io_out[15..0]" (rect 114 43 187 58)(font "Intel Clear" (font_size 8)))
+		(line (pt 208 48)(pt 192 48)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 192 144))
+	)
+)
+(symbol
+	(rect 704 640 768 688)
+	(text "OR2" (rect 1 0 23 10)(font "Arial" (font_size 6)))
+	(text "inst15" (rect 3 37 34 50)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 23 34)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 23 34)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 15 32))
+	)
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 23 18)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 23 18)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 15 16))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 69 26)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 69 26)(font "Courier New" (bold))(invisible))
+		(line (pt 48 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 14 36)(pt 25 36))
+		(line (pt 14 13)(pt 25 13))
+		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
+		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
+		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
 	)
 )
 (connector
@@ -1554,10 +1690,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 776 488)
-	(pt 808 488)
-)
-(connector
 	(pt 16 224)
 	(pt 424 224)
 )
@@ -1619,10 +1751,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 856 488)
-	(pt 864 488)
-)
-(connector
 	(pt 720 408)
 	(pt 864 408)
 	(bus)
@@ -1640,26 +1768,6 @@ refer to the applicable agreement for further details.
 	(pt 1064 600)
 	(pt 1064 392)
 	(bus)
-)
-(connector
-	(pt 864 472)
-	(pt 864 488)
-)
-(connector
-	(pt 1040 520)
-	(pt 1032 520)
-)
-(connector
-	(pt 776 488)
-	(pt 776 536)
-)
-(connector
-	(pt 776 536)
-	(pt 1040 536)
-)
-(connector
-	(pt 1040 520)
-	(pt 1040 536)
 )
 (connector
 	(pt 768 496)
@@ -2013,24 +2121,8 @@ refer to the applicable agreement for further details.
 	(pt 1128 552)
 )
 (connector
-	(pt 1128 544)
-	(pt 1128 552)
-)
-(connector
-	(pt 1128 552)
-	(pt 1128 832)
-)
-(connector
 	(pt 1176 568)
 	(pt 1120 568)
-)
-(connector
-	(pt 1120 552)
-	(pt 1120 568)
-)
-(connector
-	(pt 1120 568)
-	(pt 1120 832)
 )
 (connector
 	(pt 1176 584)
@@ -2038,28 +2130,8 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1112 560)
-	(pt 1112 584)
-	(bus)
-)
-(connector
-	(pt 1112 584)
-	(pt 1112 832)
-	(bus)
-)
-(connector
 	(pt 1176 600)
 	(pt 1104 600)
-	(bus)
-)
-(connector
-	(pt 1104 568)
-	(pt 1104 600)
-	(bus)
-)
-(connector
-	(pt 1104 600)
-	(pt 1104 832)
 	(bus)
 )
 (connector
@@ -2075,16 +2147,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1424 704)
 	(pt 1096 704)
-	(bus)
-)
-(connector
-	(pt 1096 576)
-	(pt 1096 704)
-	(bus)
-)
-(connector
-	(pt 1096 704)
-	(pt 1096 832)
 	(bus)
 )
 (connector
@@ -2172,10 +2234,6 @@ refer to the applicable agreement for further details.
 	(pt 1144 536)
 )
 (connector
-	(pt 1144 184)
-	(pt 1144 536)
-)
-(connector
 	(pt 1152 504)
 	(pt 1152 56)
 )
@@ -2211,6 +2269,172 @@ refer to the applicable agreement for further details.
 	(pt -264 240)
 	(pt -168 240)
 )
+(connector
+	(pt 1128 544)
+	(pt 1128 552)
+)
+(connector
+	(pt 1120 552)
+	(pt 1120 568)
+)
+(connector
+	(pt 1112 560)
+	(pt 1112 584)
+	(bus)
+)
+(connector
+	(pt 1104 568)
+	(pt 1104 600)
+	(bus)
+)
+(connector
+	(pt 1096 576)
+	(pt 1096 704)
+	(bus)
+)
+(connector
+	(pt 1144 184)
+	(pt 1144 536)
+)
+(connector
+	(pt 1176 776)
+	(pt 1144 776)
+)
+(connector
+	(pt 1144 536)
+	(pt 1144 776)
+)
+(connector
+	(pt 1144 776)
+	(pt 1144 888)
+)
+(connector
+	(pt 1176 792)
+	(pt 1128 792)
+)
+(connector
+	(pt 1128 552)
+	(pt 1128 792)
+)
+(connector
+	(pt 1128 792)
+	(pt 1128 888)
+)
+(connector
+	(pt 1176 808)
+	(pt 1120 808)
+)
+(connector
+	(pt 1120 568)
+	(pt 1120 808)
+)
+(connector
+	(pt 1120 808)
+	(pt 1120 888)
+)
+(connector
+	(pt 1176 824)
+	(pt 1112 824)
+	(bus)
+)
+(connector
+	(pt 1112 584)
+	(pt 1112 824)
+	(bus)
+)
+(connector
+	(pt 1112 824)
+	(pt 1112 888)
+	(bus)
+)
+(connector
+	(pt 1176 840)
+	(pt 1104 840)
+	(bus)
+)
+(connector
+	(pt 1104 600)
+	(pt 1104 840)
+	(bus)
+)
+(connector
+	(pt 1104 840)
+	(pt 1104 888)
+	(bus)
+)
+(connector
+	(pt 1080 744)
+	(pt 1176 744)
+)
+(connector
+	(pt 1080 760)
+	(pt 1176 760)
+)
+(connector
+	(pt 1096 880)
+	(pt 1392 880)
+	(bus)
+)
+(connector
+	(pt 1392 880)
+	(pt 1392 760)
+	(bus)
+)
+(connector
+	(pt 1096 704)
+	(pt 1096 880)
+	(bus)
+)
+(connector
+	(pt 1096 880)
+	(pt 1096 888)
+	(bus)
+)
+(connector
+	(pt 1392 760)
+	(pt 1384 760)
+	(bus)
+)
+(connector
+	(pt 864 472)
+	(pt 808 472)
+)
+(connector
+	(pt 624 656)
+	(pt 632 656)
+)
+(connector
+	(pt 680 656)
+	(pt 704 656)
+)
+(connector
+	(pt 768 664)
+	(pt 808 664)
+)
+(connector
+	(pt 808 472)
+	(pt 808 664)
+)
+(connector
+	(pt 1384 744)
+	(pt 1400 744)
+)
+(connector
+	(pt 1400 744)
+	(pt 1400 912)
+)
+(connector
+	(pt 1400 912)
+	(pt 688 912)
+)
+(connector
+	(pt 688 912)
+	(pt 688 672)
+)
+(connector
+	(pt 688 672)
+	(pt 704 672)
+)
 (junction (pt 200 272))
 (junction (pt 200 264))
 (junction (pt 720 216))
@@ -2241,3 +2465,10 @@ refer to the applicable agreement for further details.
 (junction (pt 1096 704))
 (junction (pt 1144 184))
 (junction (pt -328 280))
+(junction (pt 1144 536))
+(junction (pt 1144 776))
+(junction (pt 1128 792))
+(junction (pt 1120 808))
+(junction (pt 1112 824))
+(junction (pt 1104 840))
+(junction (pt 1096 880))
