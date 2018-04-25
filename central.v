@@ -76,8 +76,11 @@ Instructions (* means implemented)
 *D:in[reg:4][io_port:8]
 	Input-set reg equal to io_port
 
-*E:stk[reg:4][offset:8]
-	Stack-load value from memory at SP+offset into reg
+*E:skl[reg:4][offset:8]
+	Stack Load-load value from memory at SP+offset into reg
+
+*F:sks[reg:4][offset:8]
+	Stack Store-store value in reg to value in memory at SP+offset
 
 */
 
@@ -287,6 +290,10 @@ begin
 					begin
 						regFile[4] <= regFile[8] + value;
 					end
+				4'hf:
+					begin
+						regFile[4] <= regFile[8] + value;
+					end
 			endcase
 		end
 	2'b10:
@@ -372,6 +379,12 @@ begin
 						begin
 							regFile[srcReg] <= mdrIn;
 							we[srcReg] <= 1'b1;
+							microReset <= 1'b1;
+						end
+					4'hf:
+						begin
+							regFile[5] <= regFile[srcReg];
+							we[5] <= 1'b1;
 							microReset <= 1'b1;
 						end
 					default:
