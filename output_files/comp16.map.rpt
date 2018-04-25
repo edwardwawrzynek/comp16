@@ -1,5 +1,5 @@
 Analysis & Synthesis report for comp16
-Sun Apr 15 13:56:21 2018
+Tue Apr 24 17:59:41 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -85,7 +85,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Apr 15 13:56:21 2018       ;
+; Analysis & Synthesis Status     ; Successful - Tue Apr 24 17:59:41 2018       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; comp16                                      ;
 ; Top-level Entity Name           ; comp16                                      ;
@@ -269,14 +269,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                               ;
 +---------------------------------------------+---------------------------------------------------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 1626                                                                ;
+; Estimate of Logic utilization (ALMs needed) ; 1637                                                                ;
 ;                                             ;                                                                     ;
-; Combinational ALUT usage for logic          ; 2095                                                                ;
-;     -- 7 input functions                    ; 60                                                                  ;
-;     -- 6 input functions                    ; 1070                                                                ;
-;     -- 5 input functions                    ; 360                                                                 ;
-;     -- 4 input functions                    ; 199                                                                 ;
-;     -- <=3 input functions                  ; 406                                                                 ;
+; Combinational ALUT usage for logic          ; 2129                                                                ;
+;     -- 7 input functions                    ; 56                                                                  ;
+;     -- 6 input functions                    ; 1061                                                                ;
+;     -- 5 input functions                    ; 391                                                                 ;
+;     -- 4 input functions                    ; 172                                                                 ;
+;     -- <=3 input functions                  ; 449                                                                 ;
 ;                                             ;                                                                     ;
 ; Dedicated logic registers                   ; 765                                                                 ;
 ;                                             ;                                                                     ;
@@ -291,8 +291,8 @@ refer to the applicable agreement for further details.
 ;                                             ;                                                                     ;
 ; Maximum fan-out node                        ; pll:inst10|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0] ;
 ; Maximum fan-out                             ; 545                                                                 ;
-; Total fan-out                               ; 17967                                                               ;
-; Average fan-out                             ; 5.80                                                                ;
+; Total fan-out                               ; 18046                                                               ;
+; Average fan-out                             ; 5.76                                                                ;
 +---------------------------------------------+---------------------------------------------------------------------+
 
 
@@ -301,7 +301,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                ; Entity Name     ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |comp16                                      ; 2095 (80)           ; 765 (0)                   ; 1084672           ; 1          ; 29   ; 0            ; |comp16                                                                                            ; comp16          ; work         ;
+; |comp16                                      ; 2129 (80)           ; 765 (0)                   ; 1084672           ; 1          ; 29   ; 0            ; |comp16                                                                                            ; comp16          ; work         ;
 ;    |DualRAM:inst4|                           ; 121 (0)             ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4                                                                              ; DualRAM         ; work         ;
 ;       |altsyncram:mem_rtl_0|                 ; 121 (0)             ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0                                                         ; altsyncram      ; work         ;
 ;          |altsyncram_4nu1:auto_generated|    ; 121 (0)             ; 6 (6)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated                          ; altsyncram_4nu1 ; work         ;
@@ -312,7 +312,7 @@ refer to the applicable agreement for further details.
 ;             |mux_chb:mux5|                   ; 48 (48)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|mux_chb:mux5             ; mux_chb         ; work         ;
 ;    |PC:inst6|                                ; 51 (51)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|PC:inst6                                                                                   ; PC              ; work         ;
 ;    |alu:inst3|                               ; 190 (190)           ; 16 (16)                   ; 0                 ; 1          ; 0    ; 0            ; |comp16|alu:inst3                                                                                  ; alu             ; work         ;
-;    |central:inst|                            ; 985 (985)           ; 306 (306)                 ; 0                 ; 0          ; 0    ; 0            ; |comp16|central:inst                                                                               ; central         ; work         ;
+;    |central:inst|                            ; 1019 (1019)         ; 306 (306)                 ; 0                 ; 0          ; 0    ; 0            ; |comp16|central:inst                                                                               ; central         ; work         ;
 ;    |debugOut:inst8|                          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|debugOut:inst8                                                                             ; debugOut        ; work         ;
 ;    |io_port:inst7|                           ; 1 (1)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|io_port:inst7                                                                              ; io_port         ; work         ;
 ;    |pll:inst10|                              ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll:inst10                                                                                 ; pll             ; pll          ;
@@ -446,7 +446,7 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Total registers                              ; 765   ;
 ; Number of registers using Synchronous Clear  ; 118   ;
-; Number of registers using Synchronous Load   ; 48    ;
+; Number of registers using Synchronous Load   ; 32    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 532   ;
@@ -575,56 +575,56 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |comp16|vga_io:inst9|vgaTextGen:instv2|col_out[3]                                  ;
-; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |comp16|ps2_io:inst12|ps2_keyboard:instp|count_idle[9]                             ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |comp16|ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_clk|counter_out[0]  ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |comp16|ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_data|counter_out[0] ;
-; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |comp16|uart_io:inst1|uart:inst01|receiver:uart_rx|bitpos[1]                       ;
-; 5:1                ; 3 bits    ; 9 LEs         ; 3 LEs                ; 6 LEs                  ; Yes        ; |comp16|uart_io:inst1|uart:inst01|transmitter:uart_tx|bitpos[0]                    ;
-; 6:1                ; 4 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |comp16|uart_io:inst1|uart:inst01|receiver:uart_rx|sample[0]                       ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |comp16|vga_io:inst9|vgaTextGen:instv2|col_out[7]                                  ;
+; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |comp16|ps2_io:inst12|ps2_keyboard:instp|count_idle[1]                             ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |comp16|ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_clk|counter_out[5]  ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |comp16|ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_data|counter_out[2] ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |comp16|uart_io:inst1|uart:inst01|receiver:uart_rx|bitpos[3]                       ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 3 LEs                ; 6 LEs                  ; Yes        ; |comp16|uart_io:inst1|uart:inst01|transmitter:uart_tx|bitpos[2]                    ;
+; 6:1                ; 4 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |comp16|uart_io:inst1|uart:inst01|receiver:uart_rx|sample[2]                       ;
 ; 20:1               ; 4 bits    ; 52 LEs        ; 48 LEs               ; 4 LEs                  ; Yes        ; |comp16|alu:inst3|result[10]                                                       ;
-; 20:1               ; 4 bits    ; 52 LEs        ; 48 LEs               ; 4 LEs                  ; Yes        ; |comp16|alu:inst3|result[5]                                                        ;
-; 21:1               ; 3 bits    ; 42 LEs        ; 36 LEs               ; 6 LEs                  ; Yes        ; |comp16|alu:inst3|result[3]                                                        ;
-; 21:1               ; 4 bits    ; 56 LEs        ; 48 LEs               ; 8 LEs                  ; Yes        ; |comp16|alu:inst3|result[12]                                                       ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[15][15]                                               ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[14][14]                                               ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[13][12]                                               ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[12][15]                                               ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[11][13]                                               ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[10][14]                                               ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[9][15]                                                ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[7][15]                                                ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[6][13]                                                ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[2][8]                                                 ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[1][8]                                                 ;
-; 24:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[0][12]                                                ;
-; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[8][9]                                                 ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[15][0]                                                ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[14][5]                                                ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[13][4]                                                ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[12][4]                                                ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[11][1]                                                ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[10][0]                                                ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[9][6]                                                 ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[7][7]                                                 ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[6][3]                                                 ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[2][4]                                                 ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[1][0]                                                 ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[0][7]                                                 ;
-; 29:1               ; 8 bits    ; 152 LEs       ; 32 LEs               ; 120 LEs                ; Yes        ; |comp16|central:inst|regFile[3][15]                                                ;
-; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[8][4]                                                 ;
-; 30:1               ; 8 bits    ; 160 LEs       ; 32 LEs               ; 128 LEs                ; Yes        ; |comp16|central:inst|regFile[4][15]                                                ;
-; 29:1               ; 8 bits    ; 152 LEs       ; 32 LEs               ; 120 LEs                ; Yes        ; |comp16|central:inst|regFile[4][5]                                                 ;
-; 42:1               ; 8 bits    ; 224 LEs       ; 112 LEs              ; 112 LEs                ; Yes        ; |comp16|central:inst|regFile[5][11]                                                ;
-; 29:1               ; 8 bits    ; 152 LEs       ; 32 LEs               ; 120 LEs                ; Yes        ; |comp16|central:inst|regFile[3][0]                                                 ;
-; 42:1               ; 8 bits    ; 224 LEs       ; 112 LEs              ; 112 LEs                ; Yes        ; |comp16|central:inst|regFile[5][3]                                                 ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |comp16|alu:inst3|ShiftLeft0                                                       ;
+; 20:1               ; 4 bits    ; 52 LEs        ; 48 LEs               ; 4 LEs                  ; Yes        ; |comp16|alu:inst3|result[7]                                                        ;
+; 21:1               ; 3 bits    ; 42 LEs        ; 36 LEs               ; 6 LEs                  ; Yes        ; |comp16|alu:inst3|result[1]                                                        ;
+; 21:1               ; 4 bits    ; 56 LEs        ; 48 LEs               ; 8 LEs                  ; Yes        ; |comp16|alu:inst3|result[15]                                                       ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[15][8]                                                ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[14][12]                                               ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[13][14]                                               ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[12][11]                                               ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[11][10]                                               ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[10][15]                                               ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[9][8]                                                 ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[7][13]                                                ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[6][9]                                                 ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[2][8]                                                 ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[1][15]                                                ;
+; 23:1               ; 8 bits    ; 120 LEs       ; 32 LEs               ; 88 LEs                 ; Yes        ; |comp16|central:inst|regFile[0][14]                                                ;
+; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[8][13]                                                ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[15][4]                                                ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[14][6]                                                ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[13][5]                                                ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[12][0]                                                ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[11][5]                                                ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[10][1]                                                ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[9][0]                                                 ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[7][7]                                                 ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[6][7]                                                 ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[2][4]                                                 ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[1][4]                                                 ;
+; 25:1               ; 8 bits    ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |comp16|central:inst|regFile[0][2]                                                 ;
+; 28:1               ; 8 bits    ; 144 LEs       ; 32 LEs               ; 112 LEs                ; Yes        ; |comp16|central:inst|regFile[3][10]                                                ;
+; 26:1               ; 8 bits    ; 136 LEs       ; 32 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[8][0]                                                 ;
+; 29:1               ; 8 bits    ; 152 LEs       ; 48 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[4][15]                                                ;
+; 29:1               ; 8 bits    ; 152 LEs       ; 48 LEs               ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[4][2]                                                 ;
+; 41:1               ; 8 bits    ; 216 LEs       ; 112 LEs              ; 104 LEs                ; Yes        ; |comp16|central:inst|regFile[5][8]                                                 ;
+; 29:1               ; 8 bits    ; 152 LEs       ; 32 LEs               ; 120 LEs                ; Yes        ; |comp16|central:inst|regFile[3][3]                                                 ;
+; 42:1               ; 8 bits    ; 224 LEs       ; 112 LEs              ; 112 LEs                ; Yes        ; |comp16|central:inst|regFile[5][1]                                                 ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |comp16|alu:inst3|ShiftRight0                                                      ;
-; 4:1                ; 18 bits   ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; No         ; |comp16|alu:inst3|ShiftLeft0                                                       ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |comp16|alu:inst3|ShiftRight0                                                      ;
+; 4:1                ; 18 bits   ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; No         ; |comp16|alu:inst3|ShiftRight0                                                      ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |comp16|uart_io:inst1|uartRecFIFO:inst02|state                                     ;
-; 16:1               ; 16 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |comp16|central:inst|Mux302                                                        ;
+; 16:1               ; 16 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |comp16|central:inst|Mux289                                                        ;
 ; 7:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; No         ; |comp16|uart_io:inst1|uart:inst01|receiver:uart_rx|state                           ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |comp16|uart_io:inst1|uart:inst01|transmitter:uart_tx|Selector3                    ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |comp16|uart_io:inst1|uart:inst01|transmitter:uart_tx|Selector1                    ;
 ; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |comp16|uart_io:inst1|uart:inst01|transmitter:uart_tx|Selector2                    ;
 ; 16:1               ; 8 bits    ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |comp16|debugOut:inst8|out[6]                                                      ;
 ; 10:1               ; 7 bits    ; 42 LEs        ; 42 LEs               ; 0 LEs                  ; No         ; |comp16|ioIn                                                                       ;
@@ -1748,29 +1748,29 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 765                         ;
-;     ENA               ; 432                         ;
+;     ENA               ; 448                         ;
 ;     ENA SCLR          ; 68                          ;
-;     ENA SLD           ; 32                          ;
+;     ENA SLD           ; 16                          ;
 ;     SCLR              ; 50                          ;
 ;     SLD               ; 16                          ;
 ;     plain             ; 167                         ;
-; arriav_lcell_comb     ; 2096                        ;
-;     arith             ; 253                         ;
+; arriav_lcell_comb     ; 2130                        ;
+;     arith             ; 269                         ;
 ;         1 data inputs ; 196                         ;
 ;         2 data inputs ; 4                           ;
-;         3 data inputs ; 37                          ;
-;         4 data inputs ; 14                          ;
+;         3 data inputs ; 45                          ;
+;         4 data inputs ; 22                          ;
 ;         5 data inputs ; 2                           ;
-;     extend            ; 60                          ;
-;         7 data inputs ; 60                          ;
-;     normal            ; 1767                        ;
+;     extend            ; 56                          ;
+;         7 data inputs ; 56                          ;
+;     normal            ; 1789                        ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 6                           ;
-;         2 data inputs ; 43                          ;
-;         3 data inputs ; 104                         ;
-;         4 data inputs ; 185                         ;
-;         5 data inputs ; 358                         ;
-;         6 data inputs ; 1070                        ;
+;         2 data inputs ; 41                          ;
+;         3 data inputs ; 141                         ;
+;         4 data inputs ; 150                         ;
+;         5 data inputs ; 389                         ;
+;         6 data inputs ; 1061                        ;
 ;     shared            ; 16                          ;
 ;         2 data inputs ; 16                          ;
 ; arriav_mac            ; 1                           ;
@@ -1779,7 +1779,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; stratixv_ram_block    ; 176                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 7.50                        ;
-; Average LUT depth     ; 4.35                        ;
+; Average LUT depth     ; 4.38                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1788,7 +1788,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:10     ;
+; Top            ; 00:00:12     ;
 +----------------+--------------+
 
 
@@ -1798,7 +1798,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Apr 15 13:55:51 2018
+    Info: Processing started: Tue Apr 24 17:59:08 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off comp16 -c comp16
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
 Warning (20031): Parallel compilation is enabled for 4 processors, but there are only 2 processors in the system. Runtime may increase due to over usage of the processor space.
@@ -1946,7 +1946,7 @@ Info (12133): Instantiated megafunction "pll:inst10|pll_0002:pll_inst|altera_pll
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
 Info (12128): Elaborating entity "central" for hierarchy "central:inst"
-Warning (10230): Verilog HDL assignment warning at central.v(190): truncated value with size 32 to match size of target (16) File: /home/edward/comp16/central.v Line: 190
+Warning (10230): Verilog HDL assignment warning at central.v(193): truncated value with size 32 to match size of target (16) File: /home/edward/comp16/central.v Line: 193
 Info (12128): Elaborating entity "DualRAM" for hierarchy "DualRAM:inst4"
 Info (12128): Elaborating entity "PC" for hierarchy "PC:inst6"
 Warning (10230): Verilog HDL assignment warning at pc.v(20): truncated value with size 32 to match size of target (16) File: /home/edward/comp16/pc.v Line: 20
@@ -2047,22 +2047,22 @@ Warning (276020): Inferred RAM node "uart_io:inst1|uartRecFIFO:inst02|mem_rtl_0"
 Info (276014): Found 1 instances of uninferred RAM logic
     Info (276007): RAM logic "vga_io:inst9|vgaTextGen:instv2|charset_ram" is uninferred due to asynchronous read logic File: /home/edward/comp16/IO/vga/vgaText.v Line: 21
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
-    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 134
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
+    Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 137
 Info (19000): Inferred 5 megafunctions from design logic
     Info (276029): Inferred altsyncram megafunction from the following design logic: "vga_io:inst9|vgaTextGen:instv2|text_mem_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
@@ -2238,18 +2238,18 @@ Warning: RST port on the PLL is not properly connected on instance pll:inst10|pl
     Info: Must be connected
 Warning: RST port on the PLL is not properly connected on instance pll_vga:inst14|pll_vga_0002:pll_vga_inst|altera_pll:altera_pll_i|general[1].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altera_pll.v Line: 748
     Info: Must be connected
-Info (21057): Implemented 2581 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2615 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 19 output pins
-    Info (21061): Implemented 2371 logic cells
+    Info (21061): Implemented 2405 logic cells
     Info (21064): Implemented 176 RAM segments
     Info (21065): Implemented 4 PLLs
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 44 warnings
-    Info: Peak virtual memory: 1130 megabytes
-    Info: Processing ended: Sun Apr 15 13:56:21 2018
-    Info: Elapsed time: 00:00:30
-    Info: Total CPU time (on all processors): 00:00:53
+    Info: Peak virtual memory: 1136 megabytes
+    Info: Processing ended: Tue Apr 24 17:59:41 2018
+    Info: Elapsed time: 00:00:33
+    Info: Total CPU time (on all processors): 00:00:51
 
 
 +------------------------------------------+

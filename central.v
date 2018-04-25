@@ -70,11 +70,14 @@ Instructions (* means implemented)
 *B:ret[num_args:12]
 	Return-put stack pointer -1 in mar, disable conditional jump, then set pc equal to mdr, increment stack pointer num_args+1
 	
-C:out[reg:4][io_port:8 - Really only 4 bits now to keep compile times low ]
+*C:out[reg:4][io_port:8]
 	Output-Set io_port equal to reg
 
-D:in[reg:4][io_port:8]
+*D:in[reg:4][io_port:8]
 	Input-set reg equal to io_port
+
+*E:stk[reg:4][offset:8]
+	Stack-load value from memory at SP+offset into reg
 
 */
 
@@ -280,6 +283,10 @@ begin
 					begin
 						ioAdrs <= value;
 					end
+				4'he:
+					begin
+						regFile[4] <= regFile[8] + value;
+					end
 			endcase
 		end
 	2'b10:
@@ -359,6 +366,12 @@ begin
 					4'hd:
 						begin
 							regFile[srcReg] <= ioIn;
+							microReset <= 1'b1;
+						end
+					4'he:
+						begin
+							regFile[srcReg] <= mdrIn;
+							we[srcReg] <= 1'b1;
 							microReset <= 1'b1;
 						end
 					default:
