@@ -289,10 +289,12 @@ begin
 				4'he:
 					begin
 						regFile[4] <= regFile[8] + value;
+						we[4] <= 1'b1;
 					end
 				4'hf:
 					begin
 						regFile[4] <= regFile[8] + value;
+						we[4] <= 1'b1;
 					end
 			endcase
 		end

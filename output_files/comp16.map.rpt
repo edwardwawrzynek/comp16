@@ -1,5 +1,5 @@
 Analysis & Synthesis report for comp16
-Tue Apr 24 18:31:36 2018
+Thu Apr 26 21:47:24 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -85,7 +85,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Apr 24 18:31:36 2018       ;
+; Analysis & Synthesis Status     ; Successful - Thu Apr 26 21:47:23 2018       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; comp16                                      ;
 ; Top-level Entity Name           ; comp16                                      ;
@@ -206,7 +206,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
+;     Processor 2            ;   0.1%      ;
 ;     Processor 3            ;   0.0%      ;
 ;     Processor 4            ;   0.0%      ;
 +----------------------------+-------------+
@@ -1788,7 +1788,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:12     ;
+; Top            ; 00:00:10     ;
 +----------------+--------------+
 
 
@@ -1798,7 +1798,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Tue Apr 24 18:30:57 2018
+    Info: Processing started: Thu Apr 26 21:46:52 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off comp16 -c comp16
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
 Warning (20031): Parallel compilation is enabled for 4 processors, but there are only 2 processors in the system. Runtime may increase due to over usage of the processor space.
@@ -2246,10 +2246,10 @@ Info (21057): Implemented 2612 device resources after synthesis - the final reso
     Info (21065): Implemented 4 PLLs
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 44 warnings
-    Info: Peak virtual memory: 1130 megabytes
-    Info: Processing ended: Tue Apr 24 18:31:36 2018
-    Info: Elapsed time: 00:00:39
-    Info: Total CPU time (on all processors): 00:01:00
+    Info: Peak virtual memory: 1131 megabytes
+    Info: Processing ended: Thu Apr 26 21:47:24 2018
+    Info: Elapsed time: 00:00:32
+    Info: Total CPU time (on all processors): 00:00:56
 
 
 +------------------------------------------+
