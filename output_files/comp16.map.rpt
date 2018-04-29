@@ -1,5 +1,5 @@
 Analysis & Synthesis report for comp16
-Thu Apr 26 21:47:24 2018
+Sat Apr 28 17:43:13 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -85,7 +85,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Apr 26 21:47:23 2018       ;
+; Analysis & Synthesis Status     ; Successful - Sat Apr 28 17:43:13 2018       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; comp16                                      ;
 ; Top-level Entity Name           ; comp16                                      ;
@@ -206,7 +206,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
+;     Processor 2            ;   0.0%      ;
 ;     Processor 3            ;   0.0%      ;
 ;     Processor 4            ;   0.0%      ;
 +----------------------------+-------------+
@@ -269,14 +269,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                               ;
 +---------------------------------------------+---------------------------------------------------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 1634                                                                ;
+; Estimate of Logic utilization (ALMs needed) ; 1636                                                                ;
 ;                                             ;                                                                     ;
-; Combinational ALUT usage for logic          ; 2126                                                                ;
-;     -- 7 input functions                    ; 56                                                                  ;
-;     -- 6 input functions                    ; 1058                                                                ;
-;     -- 5 input functions                    ; 401                                                                 ;
+; Combinational ALUT usage for logic          ; 2135                                                                ;
+;     -- 7 input functions                    ; 60                                                                  ;
+;     -- 6 input functions                    ; 1049                                                                ;
+;     -- 5 input functions                    ; 417                                                                 ;
 ;     -- 4 input functions                    ; 186                                                                 ;
-;     -- <=3 input functions                  ; 425                                                                 ;
+;     -- <=3 input functions                  ; 423                                                                 ;
 ;                                             ;                                                                     ;
 ; Dedicated logic registers                   ; 765                                                                 ;
 ;                                             ;                                                                     ;
@@ -291,7 +291,7 @@ refer to the applicable agreement for further details.
 ;                                             ;                                                                     ;
 ; Maximum fan-out node                        ; pll:inst10|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0] ;
 ; Maximum fan-out                             ; 545                                                                 ;
-; Total fan-out                               ; 18058                                                               ;
+; Total fan-out                               ; 18104                                                               ;
 ; Average fan-out                             ; 5.77                                                                ;
 +---------------------------------------------+---------------------------------------------------------------------+
 
@@ -301,7 +301,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                ; Entity Name     ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |comp16                                      ; 2126 (80)           ; 765 (0)                   ; 1084672           ; 1          ; 29   ; 0            ; |comp16                                                                                            ; comp16          ; work         ;
+; |comp16                                      ; 2135 (80)           ; 765 (0)                   ; 1084672           ; 1          ; 29   ; 0            ; |comp16                                                                                            ; comp16          ; work         ;
 ;    |DualRAM:inst4|                           ; 121 (0)             ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4                                                                              ; DualRAM         ; work         ;
 ;       |altsyncram:mem_rtl_0|                 ; 121 (0)             ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0                                                         ; altsyncram      ; work         ;
 ;          |altsyncram_4nu1:auto_generated|    ; 121 (0)             ; 6 (6)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated                          ; altsyncram_4nu1 ; work         ;
@@ -321,7 +321,7 @@ refer to the applicable agreement for further details.
 ;    |pll_vga:inst14|                          ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll_vga:inst14                                                                             ; pll_vga         ; pll_vga      ;
 ;       |pll_vga_0002:pll_vga_inst|            ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll_vga:inst14|pll_vga_0002:pll_vga_inst                                                   ; pll_vga_0002    ; pll_vga      ;
 ;          |altera_pll:altera_pll_i|           ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll_vga:inst14|pll_vga_0002:pll_vga_inst|altera_pll:altera_pll_i                           ; altera_pll      ; work         ;
-;    |ps2_io:inst12|                           ; 104 (0)             ; 112 (0)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12                                                                              ; ps2_io          ; work         ;
+;    |ps2_io:inst12|                           ; 113 (0)             ; 112 (0)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12                                                                              ; ps2_io          ; work         ;
 ;       |io_port:instp1|                       ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|io_port:instp1                                                               ; io_port         ; work         ;
 ;       |io_port:instp2|                       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|io_port:instp2                                                               ; io_port         ; work         ;
 ;       |ps2_fifo:instp3|                      ; 28 (28)             ; 41 (41)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_fifo:instp3                                                              ; ps2_fifo        ; work         ;
@@ -330,7 +330,7 @@ refer to the applicable agreement for further details.
 ;       |ps2_keyboard:instp|                   ; 44 (18)             ; 58 (34)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_keyboard:instp                                                           ; ps2_keyboard    ; work         ;
 ;          |debounce:debounce_ps2_clk|         ; 13 (13)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_clk                                 ; debounce        ; work         ;
 ;          |debounce:debounce_ps2_data|        ; 13 (13)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_data                                ; debounce        ; work         ;
-;       |ps2_to_ascii:instp4|                  ; 28 (28)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_to_ascii:instp4                                                          ; ps2_to_ascii    ; work         ;
+;       |ps2_to_ascii:instp4|                  ; 37 (37)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_to_ascii:instp4                                                          ; ps2_to_ascii    ; work         ;
 ;    |step:inst2|                              ; 1 (1)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|step:inst2                                                                                 ; step            ; work         ;
 ;    |uart_io:inst1|                           ; 108 (0)             ; 118 (0)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1                                                                              ; uart_io         ; work         ;
 ;       |io_port:inst03|                       ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|io_port:inst03                                                               ; io_port         ; work         ;
@@ -445,7 +445,7 @@ Encoding Type:  One-Hot
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 765   ;
-; Number of registers using Synchronous Clear  ; 118   ;
+; Number of registers using Synchronous Clear  ; 116   ;
 ; Number of registers using Synchronous Load   ; 32    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
@@ -1748,29 +1748,29 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 765                         ;
-;     ENA               ; 448                         ;
-;     ENA SCLR          ; 68                          ;
+;     ENA               ; 450                         ;
+;     ENA SCLR          ; 66                          ;
 ;     ENA SLD           ; 16                          ;
 ;     SCLR              ; 50                          ;
 ;     SLD               ; 16                          ;
 ;     plain             ; 167                         ;
-; arriav_lcell_comb     ; 2127                        ;
+; arriav_lcell_comb     ; 2136                        ;
 ;     arith             ; 269                         ;
 ;         1 data inputs ; 196                         ;
 ;         2 data inputs ; 4                           ;
 ;         3 data inputs ; 45                          ;
 ;         4 data inputs ; 14                          ;
 ;         5 data inputs ; 10                          ;
-;     extend            ; 56                          ;
-;         7 data inputs ; 56                          ;
-;     normal            ; 1786                        ;
+;     extend            ; 60                          ;
+;         7 data inputs ; 60                          ;
+;     normal            ; 1791                        ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 6                           ;
 ;         2 data inputs ; 45                          ;
-;         3 data inputs ; 113                         ;
+;         3 data inputs ; 111                         ;
 ;         4 data inputs ; 172                         ;
-;         5 data inputs ; 391                         ;
-;         6 data inputs ; 1058                        ;
+;         5 data inputs ; 407                         ;
+;         6 data inputs ; 1049                        ;
 ;     shared            ; 16                          ;
 ;         2 data inputs ; 16                          ;
 ; arriav_mac            ; 1                           ;
@@ -1779,7 +1779,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; stratixv_ram_block    ; 176                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 7.50                        ;
-; Average LUT depth     ; 4.39                        ;
+; Average LUT depth     ; 4.38                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1788,7 +1788,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:10     ;
+; Top            ; 00:00:13     ;
 +----------------+--------------+
 
 
@@ -1798,7 +1798,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Apr 26 21:46:52 2018
+    Info: Processing started: Sat Apr 28 17:42:34 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off comp16 -c comp16
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
 Warning (20031): Parallel compilation is enabled for 4 processors, but there are only 2 processors in the system. Runtime may increase due to over usage of the processor space.
@@ -2238,18 +2238,18 @@ Warning: RST port on the PLL is not properly connected on instance pll:inst10|pl
     Info: Must be connected
 Warning: RST port on the PLL is not properly connected on instance pll_vga:inst14|pll_vga_0002:pll_vga_inst|altera_pll:altera_pll_i|general[1].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altera_pll.v Line: 748
     Info: Must be connected
-Info (21057): Implemented 2612 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2621 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 19 output pins
-    Info (21061): Implemented 2402 logic cells
+    Info (21061): Implemented 2411 logic cells
     Info (21064): Implemented 176 RAM segments
     Info (21065): Implemented 4 PLLs
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 44 warnings
-    Info: Peak virtual memory: 1131 megabytes
-    Info: Processing ended: Thu Apr 26 21:47:24 2018
-    Info: Elapsed time: 00:00:32
-    Info: Total CPU time (on all processors): 00:00:56
+    Info: Peak virtual memory: 1188 megabytes
+    Info: Processing ended: Sat Apr 28 17:43:13 2018
+    Info: Elapsed time: 00:00:39
+    Info: Total CPU time (on all processors): 00:01:03
 
 
 +------------------------------------------+

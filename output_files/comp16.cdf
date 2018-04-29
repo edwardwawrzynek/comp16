@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSEMA4) Path("/home/edward/comp16/output_files/") File("comp16_serial_bootloader.jic") MfrSpec(OpMask(1) SEC_Device(EPCS128) Child_OpMask(1 1));
+		Device PartName(5CSEMA4) Path("/home/edward/comp16/output_files/") File("comp16_rom_shell.jic") MfrSpec(OpMask(1) SEC_Device(EPCS128) Child_OpMask(1 1));
 
 ChainEnd;
 
