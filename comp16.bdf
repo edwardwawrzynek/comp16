@@ -1394,6 +1394,49 @@ refer to the applicable agreement for further details.
 		(rectangle (rect 16 16 192 112))
 	)
 )
+(symbol
+	(rect 1696 288 1904 416)
+	(text "time_io" (rect 5 0 48 15)(font "Intel Clear" (font_size 8)))
+	(text "inst17" (rect 8 111 39 124)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "io_clk" (rect 0 0 34 15)(font "Intel Clear" (font_size 8)))
+		(text "io_clk" (rect 21 27 55 42)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "io_we" (rect 0 0 34 15)(font "Intel Clear" (font_size 8)))
+		(text "io_we" (rect 21 43 55 58)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "io_addr[7..0]" (rect 0 0 73 15)(font "Intel Clear" (font_size 8)))
+		(text "io_addr[7..0]" (rect 21 59 94 74)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "io_data[15..0]" (rect 0 0 79 15)(font "Intel Clear" (font_size 8)))
+		(text "io_data[15..0]" (rect 21 75 100 90)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 208 32)
+		(output)
+		(text "io_out[15..0]" (rect 0 0 73 15)(font "Intel Clear" (font_size 8)))
+		(text "io_out[15..0]" (rect 114 27 187 42)(font "Intel Clear" (font_size 8)))
+		(line (pt 208 32)(pt 192 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 192 112))
+	)
+)
 (connector
 	(pt 200 264)
 	(pt 424 264)
@@ -2510,20 +2553,12 @@ refer to the applicable agreement for further details.
 	(pt 1672 160)
 )
 (connector
-	(pt 1672 160)
-	(pt 1672 888)
-)
-(connector
 	(pt 1688 176)
 	(pt 1664 176)
 )
 (connector
 	(pt 1664 96)
 	(pt 1664 176)
-)
-(connector
-	(pt 1664 176)
-	(pt 1664 888)
 )
 (connector
 	(pt 1688 192)
@@ -2536,11 +2571,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1656 192)
-	(pt 1656 888)
-	(bus)
-)
-(connector
 	(pt 1688 208)
 	(pt 1648 208)
 	(bus)
@@ -2548,11 +2578,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1648 80)
 	(pt 1648 208)
-	(bus)
-)
-(connector
-	(pt 1648 208)
-	(pt 1648 888)
 	(bus)
 )
 (connector
@@ -2571,13 +2596,87 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1640 888)
 	(pt 1640 264)
+	(pt 1640 72)
 	(bus)
 )
 (connector
+	(pt 1696 320)
+	(pt 1672 320)
+)
+(connector
+	(pt 1672 160)
+	(pt 1672 320)
+)
+(connector
+	(pt 1672 320)
+	(pt 1672 888)
+)
+(connector
+	(pt 1696 336)
+	(pt 1664 336)
+)
+(connector
+	(pt 1664 176)
+	(pt 1664 336)
+)
+(connector
+	(pt 1664 336)
+	(pt 1664 888)
+)
+(connector
+	(pt 1696 352)
+	(pt 1656 352)
+	(bus)
+)
+(connector
+	(pt 1656 192)
+	(pt 1656 352)
+	(bus)
+)
+(connector
+	(pt 1656 352)
+	(pt 1656 888)
+	(bus)
+)
+(connector
+	(pt 1696 368)
+	(pt 1648 368)
+	(bus)
+)
+(connector
+	(pt 1648 208)
+	(pt 1648 368)
+	(bus)
+)
+(connector
+	(pt 1648 368)
+	(pt 1648 888)
+	(bus)
+)
+(connector
+	(pt 1904 320)
+	(pt 1912 320)
+	(bus)
+)
+(connector
+	(pt 1912 320)
+	(pt 1912 424)
+	(bus)
+)
+(connector
+	(pt 1912 424)
+	(pt 1640 424)
+	(bus)
+)
+(connector
+	(pt 1640 888)
+	(pt 1640 424)
+	(bus)
+)
+(connector
+	(pt 1640 424)
 	(pt 1640 264)
-	(pt 1640 72)
 	(bus)
 )
 (junction (pt 200 272))
@@ -2622,3 +2721,8 @@ refer to the applicable agreement for further details.
 (junction (pt 1656 192))
 (junction (pt 1648 208))
 (junction (pt 1640 264))
+(junction (pt 1672 320))
+(junction (pt 1664 336))
+(junction (pt 1656 352))
+(junction (pt 1648 368))
+(junction (pt 1640 424))
