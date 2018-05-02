@@ -1,5 +1,5 @@
 Assembler report for comp16
-Sat Apr 28 18:49:13 2018
+Tue May  1 18:18:04 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Apr 28 18:49:13 2018 ;
+; Assembler Status      ; Successful - Tue May  1 18:18:04 2018 ;
 ; Revision Name         ; comp16                                ;
 ; Top-level Entity Name ; comp16                                ;
 ; Family                ; Cyclone V                             ;
@@ -94,8 +94,8 @@ refer to the applicable agreement for further details.
 +----------------+---------------------+
 ; Option         ; Setting             ;
 +----------------+---------------------+
-; JTAG usercode  ; 0x0316A00E          ;
-; Checksum       ; 0x0316A00E          ;
+; JTAG usercode  ; 0x059DA2EA          ;
+; Checksum       ; 0x059DA2EA          ;
 +----------------+---------------------+
 
 
@@ -105,13 +105,13 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sat Apr 28 18:49:04 2018
+    Info: Processing started: Tue May  1 18:17:53 2018
 Info: Command: quartus_asm --read_settings_files=on --write_settings_files=off comp16 -c comp16
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 1012 megabytes
-    Info: Processing ended: Sat Apr 28 18:49:13 2018
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:09
+    Info: Peak virtual memory: 1018 megabytes
+    Info: Processing ended: Tue May  1 18:18:04 2018
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:11
 
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for comp16
-Sat Apr 28 17:43:13 2018
+Tue May  1 18:05:22 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -27,39 +27,43 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
  19. Multiplexer Restructuring Statistics (Restructuring Performed)
  20. Source assignments for vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_0|altsyncram_oej1:auto_generated
  21. Source assignments for vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_1|altsyncram_qri1:auto_generated
- 22. Source assignments for ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated
- 23. Source assignments for DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated
- 24. Source assignments for uart_io:inst1|uartRecFIFO:inst02|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated
- 25. Parameter Settings for User Entity Instance: uart_io:inst1|uart:inst01
- 26. Parameter Settings for User Entity Instance: uart_io:inst1|uart:inst01|baud_rate_gen:uart_baud
- 27. Parameter Settings for User Entity Instance: uart_io:inst1|uart:inst01|transmitter:uart_tx
- 28. Parameter Settings for User Entity Instance: uart_io:inst1|uart:inst01|receiver:uart_rx
- 29. Parameter Settings for User Entity Instance: uart_io:inst1|io_port:inst04
- 30. Parameter Settings for User Entity Instance: uart_io:inst1|io_port:inst03
- 31. Parameter Settings for User Entity Instance: uart_io:inst1|io_port:inst05
- 32. Parameter Settings for User Entity Instance: uart_io:inst1|io_port:inst06
- 33. Parameter Settings for User Entity Instance: pll:inst10|pll_0002:pll_inst|altera_pll:altera_pll_i
- 34. Parameter Settings for User Entity Instance: ps2_io:inst12|ps2_keyboard:instp
- 35. Parameter Settings for User Entity Instance: ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_clk
- 36. Parameter Settings for User Entity Instance: ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_data
- 37. Parameter Settings for User Entity Instance: ps2_io:inst12|io_port:instp1
- 38. Parameter Settings for User Entity Instance: ps2_io:inst12|io_port:instp2
- 39. Parameter Settings for User Entity Instance: io_port:inst7
- 40. Parameter Settings for User Entity Instance: vga_io:inst9|VGA_controller:instv1
- 41. Parameter Settings for User Entity Instance: vga_io:inst9|io_port:instv3
- 42. Parameter Settings for User Entity Instance: vga_io:inst9|io_port:instv4
- 43. Parameter Settings for User Entity Instance: vga_io:inst9|vgaTextGen:instv2
- 44. Parameter Settings for User Entity Instance: pll_vga:inst14|pll_vga_0002:pll_vga_inst|altera_pll:altera_pll_i
- 45. Parameter Settings for Inferred Entity Instance: vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_0
- 46. Parameter Settings for Inferred Entity Instance: vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_1
- 47. Parameter Settings for Inferred Entity Instance: ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0
- 48. Parameter Settings for Inferred Entity Instance: DualRAM:inst4|altsyncram:mem_rtl_0
- 49. Parameter Settings for Inferred Entity Instance: uart_io:inst1|uartRecFIFO:inst02|altsyncram:mem_rtl_0
- 50. altsyncram Parameter Settings by Entity Instance
- 51. Post-Synthesis Netlist Statistics for Top Partition
- 52. Elapsed Time Per Partition
- 53. Analysis & Synthesis Messages
- 54. Analysis & Synthesis Suppressed Messages
+ 22. Source assignments for prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0|altsyncram_55c1:auto_generated
+ 23. Source assignments for ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated
+ 24. Source assignments for DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated
+ 25. Source assignments for uart_io:inst1|uartRecFIFO:inst02|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated
+ 26. Parameter Settings for User Entity Instance: uart_io:inst1|uart:inst01
+ 27. Parameter Settings for User Entity Instance: uart_io:inst1|uart:inst01|baud_rate_gen:uart_baud
+ 28. Parameter Settings for User Entity Instance: uart_io:inst1|uart:inst01|transmitter:uart_tx
+ 29. Parameter Settings for User Entity Instance: uart_io:inst1|uart:inst01|receiver:uart_rx
+ 30. Parameter Settings for User Entity Instance: uart_io:inst1|io_port:inst04
+ 31. Parameter Settings for User Entity Instance: uart_io:inst1|io_port:inst03
+ 32. Parameter Settings for User Entity Instance: uart_io:inst1|io_port:inst05
+ 33. Parameter Settings for User Entity Instance: uart_io:inst1|io_port:inst06
+ 34. Parameter Settings for User Entity Instance: pll:inst10|pll_0002:pll_inst|altera_pll:altera_pll_i
+ 35. Parameter Settings for User Entity Instance: ps2_io:inst12|ps2_keyboard:instp
+ 36. Parameter Settings for User Entity Instance: ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_clk
+ 37. Parameter Settings for User Entity Instance: ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_data
+ 38. Parameter Settings for User Entity Instance: ps2_io:inst12|io_port:instp1
+ 39. Parameter Settings for User Entity Instance: ps2_io:inst12|io_port:instp2
+ 40. Parameter Settings for User Entity Instance: io_port:inst7
+ 41. Parameter Settings for User Entity Instance: prgm_rom_io:inst16|io_port:inst1
+ 42. Parameter Settings for User Entity Instance: prgm_rom_io:inst16|io_port:inst2
+ 43. Parameter Settings for User Entity Instance: vga_io:inst9|VGA_controller:instv1
+ 44. Parameter Settings for User Entity Instance: vga_io:inst9|io_port:instv3
+ 45. Parameter Settings for User Entity Instance: vga_io:inst9|io_port:instv4
+ 46. Parameter Settings for User Entity Instance: vga_io:inst9|vgaTextGen:instv2
+ 47. Parameter Settings for User Entity Instance: pll_vga:inst14|pll_vga_0002:pll_vga_inst|altera_pll:altera_pll_i
+ 48. Parameter Settings for Inferred Entity Instance: vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_0
+ 49. Parameter Settings for Inferred Entity Instance: vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_1
+ 50. Parameter Settings for Inferred Entity Instance: prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0
+ 51. Parameter Settings for Inferred Entity Instance: ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0
+ 52. Parameter Settings for Inferred Entity Instance: DualRAM:inst4|altsyncram:mem_rtl_0
+ 53. Parameter Settings for Inferred Entity Instance: uart_io:inst1|uartRecFIFO:inst02|altsyncram:mem_rtl_0
+ 54. altsyncram Parameter Settings by Entity Instance
+ 55. Post-Synthesis Netlist Statistics for Top Partition
+ 56. Elapsed Time Per Partition
+ 57. Analysis & Synthesis Messages
+ 58. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -85,16 +89,16 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Apr 28 17:43:13 2018       ;
+; Analysis & Synthesis Status     ; Successful - Tue May  1 18:05:22 2018       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; comp16                                      ;
 ; Top-level Entity Name           ; comp16                                      ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 765                                         ;
+; Total registers                 ; 784                                         ;
 ; Total pins                      ; 29                                          ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 1,084,672                                   ;
+; Total block memory bits         ; 2,133,248                                   ;
 ; Total DSP Blocks                ; 1                                           ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
@@ -212,56 +216,60 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                     ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                           ; Library ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+---------+
-; IO/vga/vga_controller.v          ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/vga/vga_controller.v                                            ;         ;
-; IO/vga/vgaText.v                 ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/vga/vgaText.v                                                   ;         ;
-; debugOut.v                       ; yes             ; User Verilog HDL File              ; /home/edward/comp16/debugOut.v                                                         ;         ;
-; comp16.bdf                       ; yes             ; User Block Diagram/Schematic File  ; /home/edward/comp16/comp16.bdf                                                         ;         ;
-; central.v                        ; yes             ; User Verilog HDL File              ; /home/edward/comp16/central.v                                                          ;         ;
-; step.v                           ; yes             ; User Verilog HDL File              ; /home/edward/comp16/step.v                                                             ;         ;
-; alu.v                            ; yes             ; User Verilog HDL File              ; /home/edward/comp16/alu.v                                                              ;         ;
-; RAMData.mif                      ; yes             ; User Memory Initialization File    ; /home/edward/comp16/RAMData.mif                                                        ;         ;
-; pc.v                             ; yes             ; User Verilog HDL File              ; /home/edward/comp16/pc.v                                                               ;         ;
-; DualRam.v                        ; yes             ; User Verilog HDL File              ; /home/edward/comp16/DualRam.v                                                          ;         ;
-; IO/uart/receiver.v               ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/uart/receiver.v                                                 ;         ;
-; IO/uart/transmitter.v            ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/uart/transmitter.v                                              ;         ;
-; IO/uart/uart.v                   ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/uart/uart.v                                                     ;         ;
-; IO/uart/baud_rate_gen.v          ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/uart/baud_rate_gen.v                                            ;         ;
-; IO/uart/uartRecFIFO.v            ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/uart/uartRecFIFO.v                                              ;         ;
-; pll.v                            ; yes             ; User Wizard-Generated File         ; /home/edward/comp16/pll.v                                                              ; pll     ;
-; pll/pll_0002.v                   ; yes             ; User Verilog HDL File              ; /home/edward/comp16/pll/pll_0002.v                                                     ; pll     ;
-; IO/io_port.v                     ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/io_port.v                                                       ;         ;
-; IO/uart/uart_io.bdf              ; yes             ; User Block Diagram/Schematic File  ; /home/edward/comp16/IO/uart/uart_io.bdf                                                ;         ;
-; IO/vga/vga_io.bdf                ; yes             ; User Block Diagram/Schematic File  ; /home/edward/comp16/IO/vga/vga_io.bdf                                                  ;         ;
-; pll_vga.v                        ; yes             ; User Wizard-Generated File         ; /home/edward/comp16/pll_vga.v                                                          ; pll_vga ;
-; pll_vga/pll_vga_0002.v           ; yes             ; User Verilog HDL File              ; /home/edward/comp16/pll_vga/pll_vga_0002.v                                             ; pll_vga ;
-; IO/ps2/ps2_io.bdf                ; yes             ; User Block Diagram/Schematic File  ; /home/edward/comp16/IO/ps2/ps2_io.bdf                                                  ;         ;
-; IO/ps2/debounce.vhd              ; yes             ; User VHDL File                     ; /home/edward/comp16/IO/ps2/debounce.vhd                                                ;         ;
-; IO/ps2/ps2_keyboard.vhd          ; yes             ; User VHDL File                     ; /home/edward/comp16/IO/ps2/ps2_keyboard.vhd                                            ;         ;
-; IO/ps2/ps2_fifo.v                ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/ps2/ps2_fifo.v                                                  ;         ;
-; IO/ps2/ps2_to_ascii.v            ; yes             ; User Verilog HDL File              ; /home/edward/comp16/IO/ps2/ps2_to_ascii.v                                              ;         ;
-; altera_pll.v                     ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altera_pll.v          ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
-; aglobal171.inc                   ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/aglobal171.inc        ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
-; altrom.inc                       ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altrom.inc            ;         ;
-; altram.inc                       ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altram.inc            ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                       ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
-; db/altsyncram_oej1.tdf           ; yes             ; Auto-Generated Megafunction        ; /home/edward/comp16/db/altsyncram_oej1.tdf                                             ;         ;
-; db/altsyncram_qri1.tdf           ; yes             ; Auto-Generated Megafunction        ; /home/edward/comp16/db/altsyncram_qri1.tdf                                             ;         ;
-; db/altsyncram_93k1.tdf           ; yes             ; Auto-Generated Megafunction        ; /home/edward/comp16/db/altsyncram_93k1.tdf                                             ;         ;
-; db/altsyncram_4nu1.tdf           ; yes             ; Auto-Generated Megafunction        ; /home/edward/comp16/db/altsyncram_4nu1.tdf                                             ;         ;
-; db/decode_dla.tdf                ; yes             ; Auto-Generated Megafunction        ; /home/edward/comp16/db/decode_dla.tdf                                                  ;         ;
-; db/decode_61a.tdf                ; yes             ; Auto-Generated Megafunction        ; /home/edward/comp16/db/decode_61a.tdf                                                  ;         ;
-; db/mux_chb.tdf                   ; yes             ; Auto-Generated Megafunction        ; /home/edward/comp16/db/mux_chb.tdf                                                     ;         ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                         ;
++----------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                           ; Library ;
++----------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------------------------+---------+
+; IO/vga/vga_controller.v          ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/vga/vga_controller.v                                            ;         ;
+; IO/vga/vgaText.v                 ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/vga/vgaText.v                                                   ;         ;
+; debugOut.v                       ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/debugOut.v                                                         ;         ;
+; comp16.bdf                       ; yes             ; User Block Diagram/Schematic File      ; /home/edward/comp16/comp16.bdf                                                         ;         ;
+; central.v                        ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/central.v                                                          ;         ;
+; step.v                           ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/step.v                                                             ;         ;
+; alu.v                            ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/alu.v                                                              ;         ;
+; RAMData.mif                      ; yes             ; User Memory Initialization File        ; /home/edward/comp16/RAMData.mif                                                        ;         ;
+; pc.v                             ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/pc.v                                                               ;         ;
+; DualRam.v                        ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/DualRam.v                                                          ;         ;
+; IO/uart/receiver.v               ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/uart/receiver.v                                                 ;         ;
+; IO/uart/transmitter.v            ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/uart/transmitter.v                                              ;         ;
+; IO/uart/uart.v                   ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/uart/uart.v                                                     ;         ;
+; IO/uart/baud_rate_gen.v          ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/uart/baud_rate_gen.v                                            ;         ;
+; IO/uart/uartRecFIFO.v            ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/uart/uartRecFIFO.v                                              ;         ;
+; pll.v                            ; yes             ; User Wizard-Generated File             ; /home/edward/comp16/pll.v                                                              ; pll     ;
+; pll/pll_0002.v                   ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/pll/pll_0002.v                                                     ; pll     ;
+; IO/io_port.v                     ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/io_port.v                                                       ;         ;
+; IO/uart/uart_io.bdf              ; yes             ; User Block Diagram/Schematic File      ; /home/edward/comp16/IO/uart/uart_io.bdf                                                ;         ;
+; IO/vga/vga_io.bdf                ; yes             ; User Block Diagram/Schematic File      ; /home/edward/comp16/IO/vga/vga_io.bdf                                                  ;         ;
+; pll_vga.v                        ; yes             ; User Wizard-Generated File             ; /home/edward/comp16/pll_vga.v                                                          ; pll_vga ;
+; pll_vga/pll_vga_0002.v           ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/pll_vga/pll_vga_0002.v                                             ; pll_vga ;
+; IO/ps2/ps2_io.bdf                ; yes             ; User Block Diagram/Schematic File      ; /home/edward/comp16/IO/ps2/ps2_io.bdf                                                  ;         ;
+; IO/ps2/debounce.vhd              ; yes             ; User VHDL File                         ; /home/edward/comp16/IO/ps2/debounce.vhd                                                ;         ;
+; IO/ps2/ps2_keyboard.vhd          ; yes             ; User VHDL File                         ; /home/edward/comp16/IO/ps2/ps2_keyboard.vhd                                            ;         ;
+; IO/ps2/ps2_fifo.v                ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/ps2/ps2_fifo.v                                                  ;         ;
+; IO/ps2/ps2_to_ascii.v            ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/ps2/ps2_to_ascii.v                                              ;         ;
+; IO/prgm_rom/prgm_rom.v           ; yes             ; User Verilog HDL File                  ; /home/edward/comp16/IO/prgm_rom/prgm_rom.v                                             ;         ;
+; IO/prgm_rom/prgm_rom_io.bdf      ; yes             ; User Block Diagram/Schematic File      ; /home/edward/comp16/IO/prgm_rom/prgm_rom_io.bdf                                        ;         ;
+; altera_pll.v                     ; yes             ; Megafunction                           ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altera_pll.v          ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                           ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                           ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                           ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                           ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
+; aglobal171.inc                   ; yes             ; Megafunction                           ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/aglobal171.inc        ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                           ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
+; altrom.inc                       ; yes             ; Megafunction                           ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altrom.inc            ;         ;
+; altram.inc                       ; yes             ; Megafunction                           ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altram.inc            ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                           ; /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
+; db/altsyncram_oej1.tdf           ; yes             ; Auto-Generated Megafunction            ; /home/edward/comp16/db/altsyncram_oej1.tdf                                             ;         ;
+; db/altsyncram_qri1.tdf           ; yes             ; Auto-Generated Megafunction            ; /home/edward/comp16/db/altsyncram_qri1.tdf                                             ;         ;
+; db/altsyncram_55c1.tdf           ; yes             ; Auto-Generated Megafunction            ; /home/edward/comp16/db/altsyncram_55c1.tdf                                             ;         ;
+; IO/prgm_rom/prgm_rom.mif         ; yes             ; Auto-Found Memory Initialization File  ; /home/edward/comp16/IO/prgm_rom/prgm_rom.mif                                           ;         ;
+; db/decode_61a.tdf                ; yes             ; Auto-Generated Megafunction            ; /home/edward/comp16/db/decode_61a.tdf                                                  ;         ;
+; db/mux_chb.tdf                   ; yes             ; Auto-Generated Megafunction            ; /home/edward/comp16/db/mux_chb.tdf                                                     ;         ;
+; db/altsyncram_93k1.tdf           ; yes             ; Auto-Generated Megafunction            ; /home/edward/comp16/db/altsyncram_93k1.tdf                                             ;         ;
+; db/altsyncram_4nu1.tdf           ; yes             ; Auto-Generated Megafunction            ; /home/edward/comp16/db/altsyncram_4nu1.tdf                                             ;         ;
+; db/decode_dla.tdf                ; yes             ; Auto-Generated Megafunction            ; /home/edward/comp16/db/decode_dla.tdf                                                  ;         ;
++----------------------------------+-----------------+----------------------------------------+----------------------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------------------------------------------------------------------+
@@ -269,20 +277,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                               ;
 +---------------------------------------------+---------------------------------------------------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 1636                                                                ;
+; Estimate of Logic utilization (ALMs needed) ; 1665                                                                ;
 ;                                             ;                                                                     ;
-; Combinational ALUT usage for logic          ; 2135                                                                ;
-;     -- 7 input functions                    ; 60                                                                  ;
-;     -- 6 input functions                    ; 1049                                                                ;
-;     -- 5 input functions                    ; 417                                                                 ;
-;     -- 4 input functions                    ; 186                                                                 ;
-;     -- <=3 input functions                  ; 423                                                                 ;
+; Combinational ALUT usage for logic          ; 2140                                                                ;
+;     -- 7 input functions                    ; 137                                                                 ;
+;     -- 6 input functions                    ; 1023                                                                ;
+;     -- 5 input functions                    ; 344                                                                 ;
+;     -- 4 input functions                    ; 195                                                                 ;
+;     -- <=3 input functions                  ; 441                                                                 ;
 ;                                             ;                                                                     ;
-; Dedicated logic registers                   ; 765                                                                 ;
+; Dedicated logic registers                   ; 784                                                                 ;
 ;                                             ;                                                                     ;
 ; I/O pins                                    ; 29                                                                  ;
 ; Total MLAB memory bits                      ; 0                                                                   ;
-; Total block memory bits                     ; 1084672                                                             ;
+; Total block memory bits                     ; 2133248                                                             ;
 ;                                             ;                                                                     ;
 ; Total DSP Blocks                            ; 1                                                                   ;
 ;                                             ;                                                                     ;
@@ -291,81 +299,89 @@ refer to the applicable agreement for further details.
 ;                                             ;                                                                     ;
 ; Maximum fan-out node                        ; pll:inst10|pll_0002:pll_inst|altera_pll:altera_pll_i|outclk_wire[0] ;
 ; Maximum fan-out                             ; 545                                                                 ;
-; Total fan-out                               ; 18104                                                               ;
-; Average fan-out                             ; 5.77                                                                ;
+; Total fan-out                               ; 20183                                                               ;
+; Average fan-out                             ; 6.13                                                                ;
 +---------------------------------------------+---------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                         ;
-+----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------+-----------------+--------------+
-; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                ; Entity Name     ; Library Name ;
-+----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |comp16                                      ; 2135 (80)           ; 765 (0)                   ; 1084672           ; 1          ; 29   ; 0            ; |comp16                                                                                            ; comp16          ; work         ;
-;    |DualRAM:inst4|                           ; 121 (0)             ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4                                                                              ; DualRAM         ; work         ;
-;       |altsyncram:mem_rtl_0|                 ; 121 (0)             ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0                                                         ; altsyncram      ; work         ;
-;          |altsyncram_4nu1:auto_generated|    ; 121 (0)             ; 6 (6)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated                          ; altsyncram_4nu1 ; work         ;
-;             |decode_61a:rden_decode_a|       ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|decode_61a:rden_decode_a ; decode_61a      ; work         ;
-;             |decode_61a:rden_decode_b|       ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|decode_61a:rden_decode_b ; decode_61a      ; work         ;
-;             |decode_dla:decode3|             ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|decode_dla:decode3       ; decode_dla      ; work         ;
-;             |mux_chb:mux4|                   ; 48 (48)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|mux_chb:mux4             ; mux_chb         ; work         ;
-;             |mux_chb:mux5|                   ; 48 (48)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|mux_chb:mux5             ; mux_chb         ; work         ;
-;    |PC:inst6|                                ; 51 (51)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|PC:inst6                                                                                   ; PC              ; work         ;
-;    |alu:inst3|                               ; 190 (190)           ; 16 (16)                   ; 0                 ; 1          ; 0    ; 0            ; |comp16|alu:inst3                                                                                  ; alu             ; work         ;
-;    |central:inst|                            ; 1016 (1016)         ; 306 (306)                 ; 0                 ; 0          ; 0    ; 0            ; |comp16|central:inst                                                                               ; central         ; work         ;
-;    |debugOut:inst8|                          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|debugOut:inst8                                                                             ; debugOut        ; work         ;
-;    |io_port:inst7|                           ; 1 (1)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|io_port:inst7                                                                              ; io_port         ; work         ;
-;    |pll:inst10|                              ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll:inst10                                                                                 ; pll             ; pll          ;
-;       |pll_0002:pll_inst|                    ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll:inst10|pll_0002:pll_inst                                                               ; pll_0002        ; pll          ;
-;          |altera_pll:altera_pll_i|           ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll:inst10|pll_0002:pll_inst|altera_pll:altera_pll_i                                       ; altera_pll      ; work         ;
-;    |pll_vga:inst14|                          ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll_vga:inst14                                                                             ; pll_vga         ; pll_vga      ;
-;       |pll_vga_0002:pll_vga_inst|            ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll_vga:inst14|pll_vga_0002:pll_vga_inst                                                   ; pll_vga_0002    ; pll_vga      ;
-;          |altera_pll:altera_pll_i|           ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll_vga:inst14|pll_vga_0002:pll_vga_inst|altera_pll:altera_pll_i                           ; altera_pll      ; work         ;
-;    |ps2_io:inst12|                           ; 113 (0)             ; 112 (0)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12                                                                              ; ps2_io          ; work         ;
-;       |io_port:instp1|                       ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|io_port:instp1                                                               ; io_port         ; work         ;
-;       |io_port:instp2|                       ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|io_port:instp2                                                               ; io_port         ; work         ;
-;       |ps2_fifo:instp3|                      ; 28 (28)             ; 41 (41)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_fifo:instp3                                                              ; ps2_fifo        ; work         ;
-;          |altsyncram:mem_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0                                         ; altsyncram      ; work         ;
-;             |altsyncram_93k1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated          ; altsyncram_93k1 ; work         ;
-;       |ps2_keyboard:instp|                   ; 44 (18)             ; 58 (34)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_keyboard:instp                                                           ; ps2_keyboard    ; work         ;
-;          |debounce:debounce_ps2_clk|         ; 13 (13)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_clk                                 ; debounce        ; work         ;
-;          |debounce:debounce_ps2_data|        ; 13 (13)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_data                                ; debounce        ; work         ;
-;       |ps2_to_ascii:instp4|                  ; 37 (37)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_to_ascii:instp4                                                          ; ps2_to_ascii    ; work         ;
-;    |step:inst2|                              ; 1 (1)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|step:inst2                                                                                 ; step            ; work         ;
-;    |uart_io:inst1|                           ; 108 (0)             ; 118 (0)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1                                                                              ; uart_io         ; work         ;
-;       |io_port:inst03|                       ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|io_port:inst03                                                               ; io_port         ; work         ;
-;       |io_port:inst04|                       ; 2 (2)               ; 17 (17)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|io_port:inst04                                                               ; io_port         ; work         ;
-;       |uart:inst01|                          ; 75 (0)              ; 58 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uart:inst01                                                                  ; uart            ; work         ;
-;          |baud_rate_gen:uart_baud|           ; 19 (19)             ; 14 (14)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uart:inst01|baud_rate_gen:uart_baud                                          ; baud_rate_gen   ; work         ;
-;          |receiver:uart_rx|                  ; 42 (42)             ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uart:inst01|receiver:uart_rx                                                 ; receiver        ; work         ;
-;          |transmitter:uart_tx|               ; 14 (14)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uart:inst01|transmitter:uart_tx                                              ; transmitter     ; work         ;
-;       |uartRecFIFO:inst02|                   ; 29 (29)             ; 42 (42)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uartRecFIFO:inst02                                                           ; uartRecFIFO     ; work         ;
-;          |altsyncram:mem_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 2048              ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uartRecFIFO:inst02|altsyncram:mem_rtl_0                                      ; altsyncram      ; work         ;
-;             |altsyncram_93k1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 2048              ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uartRecFIFO:inst02|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated       ; altsyncram_93k1 ; work         ;
-;    |vga_io:inst9|                            ; 414 (0)             ; 173 (0)                   ; 32000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9                                                                               ; vga_io          ; work         ;
-;       |VGA_controller:instv1|                ; 89 (89)             ; 85 (85)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|VGA_controller:instv1                                                         ; VGA_controller  ; work         ;
-;       |io_port:instv3|                       ; 3 (3)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|io_port:instv3                                                                ; io_port         ; work         ;
-;       |io_port:instv4|                       ; 3 (3)               ; 17 (17)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|io_port:instv4                                                                ; io_port         ; work         ;
-;       |vgaTextGen:instv2|                    ; 319 (319)           ; 55 (55)                   ; 32000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|vgaTextGen:instv2                                                             ; vgaTextGen      ; work         ;
-;          |altsyncram:text_mem_rtl_0|         ; 0 (0)               ; 0 (0)                     ; 16000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_0                                   ; altsyncram      ; work         ;
-;             |altsyncram_oej1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 16000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_0|altsyncram_oej1:auto_generated    ; altsyncram_oej1 ; work         ;
-;          |altsyncram:text_mem_rtl_1|         ; 0 (0)               ; 0 (0)                     ; 16000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_1                                   ; altsyncram      ; work         ;
-;             |altsyncram_qri1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 16000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_1|altsyncram_qri1:auto_generated    ; altsyncram_qri1 ; work         ;
-+----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------+-----------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                          ;
++----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                 ; Entity Name     ; Library Name ;
++----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
+; |comp16                                      ; 2140 (113)          ; 784 (0)                   ; 2133248           ; 1          ; 29   ; 0            ; |comp16                                                                                                             ; comp16          ; work         ;
+;    |DualRAM:inst4|                           ; 121 (0)             ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4                                                                                               ; DualRAM         ; work         ;
+;       |altsyncram:mem_rtl_0|                 ; 121 (0)             ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0                                                                          ; altsyncram      ; work         ;
+;          |altsyncram_4nu1:auto_generated|    ; 121 (0)             ; 6 (6)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated                                           ; altsyncram_4nu1 ; work         ;
+;             |decode_61a:rden_decode_a|       ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|decode_61a:rden_decode_a                  ; decode_61a      ; work         ;
+;             |decode_61a:rden_decode_b|       ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|decode_61a:rden_decode_b                  ; decode_61a      ; work         ;
+;             |decode_dla:decode3|             ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|decode_dla:decode3                        ; decode_dla      ; work         ;
+;             |mux_chb:mux4|                   ; 48 (48)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|mux_chb:mux4                              ; mux_chb         ; work         ;
+;             |mux_chb:mux5|                   ; 48 (48)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|mux_chb:mux5                              ; mux_chb         ; work         ;
+;    |PC:inst6|                                ; 51 (51)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|PC:inst6                                                                                                    ; PC              ; work         ;
+;    |alu:inst3|                               ; 190 (190)           ; 16 (16)                   ; 0                 ; 1          ; 0    ; 0            ; |comp16|alu:inst3                                                                                                   ; alu             ; work         ;
+;    |central:inst|                            ; 946 (946)           ; 306 (306)                 ; 0                 ; 0          ; 0    ; 0            ; |comp16|central:inst                                                                                                ; central         ; work         ;
+;    |debugOut:inst8|                          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|debugOut:inst8                                                                                              ; debugOut        ; work         ;
+;    |io_port:inst7|                           ; 1 (1)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|io_port:inst7                                                                                               ; io_port         ; work         ;
+;    |pll:inst10|                              ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll:inst10                                                                                                  ; pll             ; pll          ;
+;       |pll_0002:pll_inst|                    ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll:inst10|pll_0002:pll_inst                                                                                ; pll_0002        ; pll          ;
+;          |altera_pll:altera_pll_i|           ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll:inst10|pll_0002:pll_inst|altera_pll:altera_pll_i                                                        ; altera_pll      ; work         ;
+;    |pll_vga:inst14|                          ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll_vga:inst14                                                                                              ; pll_vga         ; pll_vga      ;
+;       |pll_vga_0002:pll_vga_inst|            ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll_vga:inst14|pll_vga_0002:pll_vga_inst                                                                    ; pll_vga_0002    ; pll_vga      ;
+;          |altera_pll:altera_pll_i|           ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|pll_vga:inst14|pll_vga_0002:pll_vga_inst|altera_pll:altera_pll_i                                            ; altera_pll      ; work         ;
+;    |prgm_rom_io:inst16|                      ; 44 (0)              ; 19 (0)                    ; 1048576           ; 0          ; 0    ; 0            ; |comp16|prgm_rom_io:inst16                                                                                          ; prgm_rom_io     ; work         ;
+;       |io_port:inst1|                        ; 2 (2)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|prgm_rom_io:inst16|io_port:inst1                                                                            ; io_port         ; work         ;
+;       |io_port:inst2|                        ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|prgm_rom_io:inst16|io_port:inst2                                                                            ; io_port         ; work         ;
+;       |prmg_rom:inst|                        ; 40 (0)              ; 3 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|prgm_rom_io:inst16|prmg_rom:inst                                                                            ; prmg_rom        ; work         ;
+;          |altsyncram:mem_rtl_0|              ; 40 (0)              ; 3 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0                                                       ; altsyncram      ; work         ;
+;             |altsyncram_55c1:auto_generated| ; 40 (0)              ; 3 (3)                     ; 1048576           ; 0          ; 0    ; 0            ; |comp16|prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0|altsyncram_55c1:auto_generated                        ; altsyncram_55c1 ; work         ;
+;                |decode_61a:rden_decode|      ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0|altsyncram_55c1:auto_generated|decode_61a:rden_decode ; decode_61a      ; work         ;
+;                |mux_chb:mux2|                ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0|altsyncram_55c1:auto_generated|mux_chb:mux2           ; mux_chb         ; work         ;
+;    |ps2_io:inst12|                           ; 111 (0)             ; 112 (0)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12                                                                                               ; ps2_io          ; work         ;
+;       |io_port:instp1|                       ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|io_port:instp1                                                                                ; io_port         ; work         ;
+;       |ps2_fifo:instp3|                      ; 28 (28)             ; 41 (41)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_fifo:instp3                                                                               ; ps2_fifo        ; work         ;
+;          |altsyncram:mem_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0                                                          ; altsyncram      ; work         ;
+;             |altsyncram_93k1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 2048              ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated                           ; altsyncram_93k1 ; work         ;
+;       |ps2_keyboard:instp|                   ; 44 (18)             ; 58 (34)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_keyboard:instp                                                                            ; ps2_keyboard    ; work         ;
+;          |debounce:debounce_ps2_clk|         ; 13 (13)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_clk                                                  ; debounce        ; work         ;
+;          |debounce:debounce_ps2_data|        ; 13 (13)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_keyboard:instp|debounce:debounce_ps2_data                                                 ; debounce        ; work         ;
+;       |ps2_to_ascii:instp4|                  ; 37 (37)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|ps2_io:inst12|ps2_to_ascii:instp4                                                                           ; ps2_to_ascii    ; work         ;
+;    |step:inst2|                              ; 1 (1)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|step:inst2                                                                                                  ; step            ; work         ;
+;    |uart_io:inst1|                           ; 107 (0)             ; 118 (0)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1                                                                                               ; uart_io         ; work         ;
+;       |io_port:inst03|                       ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|io_port:inst03                                                                                ; io_port         ; work         ;
+;       |io_port:inst04|                       ; 1 (1)               ; 17 (17)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|io_port:inst04                                                                                ; io_port         ; work         ;
+;       |uart:inst01|                          ; 75 (0)              ; 58 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uart:inst01                                                                                   ; uart            ; work         ;
+;          |baud_rate_gen:uart_baud|           ; 19 (19)             ; 14 (14)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uart:inst01|baud_rate_gen:uart_baud                                                           ; baud_rate_gen   ; work         ;
+;          |receiver:uart_rx|                  ; 42 (42)             ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uart:inst01|receiver:uart_rx                                                                  ; receiver        ; work         ;
+;          |transmitter:uart_tx|               ; 14 (14)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uart:inst01|transmitter:uart_tx                                                               ; transmitter     ; work         ;
+;       |uartRecFIFO:inst02|                   ; 29 (29)             ; 42 (42)                   ; 2048              ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uartRecFIFO:inst02                                                                            ; uartRecFIFO     ; work         ;
+;          |altsyncram:mem_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 2048              ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uartRecFIFO:inst02|altsyncram:mem_rtl_0                                                       ; altsyncram      ; work         ;
+;             |altsyncram_93k1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 2048              ; 0          ; 0    ; 0            ; |comp16|uart_io:inst1|uartRecFIFO:inst02|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated                        ; altsyncram_93k1 ; work         ;
+;    |vga_io:inst9|                            ; 415 (0)             ; 173 (0)                   ; 32000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9                                                                                                ; vga_io          ; work         ;
+;       |VGA_controller:instv1|                ; 89 (89)             ; 85 (85)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|VGA_controller:instv1                                                                          ; VGA_controller  ; work         ;
+;       |io_port:instv3|                       ; 3 (3)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|io_port:instv3                                                                                 ; io_port         ; work         ;
+;       |io_port:instv4|                       ; 4 (4)               ; 17 (17)                   ; 0                 ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|io_port:instv4                                                                                 ; io_port         ; work         ;
+;       |vgaTextGen:instv2|                    ; 319 (319)           ; 55 (55)                   ; 32000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|vgaTextGen:instv2                                                                              ; vgaTextGen      ; work         ;
+;          |altsyncram:text_mem_rtl_0|         ; 0 (0)               ; 0 (0)                     ; 16000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_0                                                    ; altsyncram      ; work         ;
+;             |altsyncram_oej1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 16000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_0|altsyncram_oej1:auto_generated                     ; altsyncram_oej1 ; work         ;
+;          |altsyncram:text_mem_rtl_1|         ; 0 (0)               ; 0 (0)                     ; 16000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_1                                                    ; altsyncram      ; work         ;
+;             |altsyncram_qri1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 16000             ; 0          ; 0    ; 0            ; |comp16|vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_1|altsyncram_qri1:auto_generated                     ; altsyncram_qri1 ; work         ;
++----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                                 ;
-+----------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+-------------+
-; Name                                                                                               ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size    ; MIF         ;
-+----------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+-------------+
-; DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|ALTSYNCRAM                       ; AUTO ; True Dual Port   ; 65536        ; 16           ; 65536        ; 16           ; 1048576 ; RAMData.mif ;
-; ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated|ALTSYNCRAM       ; AUTO ; Simple Dual Port ; 256          ; 8            ; 256          ; 8            ; 2048    ; None        ;
-; uart_io:inst1|uartRecFIFO:inst02|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated|ALTSYNCRAM    ; AUTO ; Simple Dual Port ; 256          ; 8            ; 256          ; 8            ; 2048    ; None        ;
-; vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_0|altsyncram_oej1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 1000         ; 16           ; 1000         ; 16           ; 16000   ; None        ;
-; vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_1|altsyncram_qri1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 1000         ; 16           ; 1000         ; 16           ; 16000   ; None        ;
-+----------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+-------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                              ;
++----------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+--------------------------+
+; Name                                                                                               ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size    ; MIF                      ;
++----------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+--------------------------+
+; DualRAM:inst4|altsyncram:mem_rtl_0|altsyncram_4nu1:auto_generated|ALTSYNCRAM                       ; AUTO ; True Dual Port   ; 65536        ; 16           ; 65536        ; 16           ; 1048576 ; RAMData.mif              ;
+; prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0|altsyncram_55c1:auto_generated|ALTSYNCRAM    ; AUTO ; ROM              ; 65536        ; 16           ; --           ; --           ; 1048576 ; IO/prgm_rom/prgm_rom.mif ;
+; ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated|ALTSYNCRAM       ; AUTO ; Simple Dual Port ; 256          ; 8            ; 256          ; 8            ; 2048    ; None                     ;
+; uart_io:inst1|uartRecFIFO:inst02|altsyncram:mem_rtl_0|altsyncram_93k1:auto_generated|ALTSYNCRAM    ; AUTO ; Simple Dual Port ; 256          ; 8            ; 256          ; 8            ; 2048    ; None                     ;
+; vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_0|altsyncram_oej1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 1000         ; 16           ; 1000         ; 16           ; 16000   ; None                     ;
+; vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_1|altsyncram_qri1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 1000         ; 16           ; 1000         ; 16           ; 16000   ; None                     ;
++----------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+--------------------------+
 
 
 +-----------------------------------------------+
@@ -444,12 +460,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 765   ;
+; Total registers                              ; 784   ;
 ; Number of registers using Synchronous Clear  ; 116   ;
 ; Number of registers using Synchronous Load   ; 32    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 532   ;
+; Number of registers using Clock Enable       ; 548   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -565,6 +581,7 @@ Encoding Type:  One-Hot
 ; Register Name                                        ; Megafunction                                  ; Type ;
 +------------------------------------------------------+-----------------------------------------------+------+
 ; vga_io:inst9|vgaTextGen:instv2|real_text_index[0..9] ; vga_io:inst9|vgaTextGen:instv2|text_mem_rtl_1 ; RAM  ;
+; prgm_rom_io:inst16|prmg_rom:inst|val[0..15]          ; prgm_rom_io:inst16|prmg_rom:inst|mem_rtl_0    ; RAM  ;
 ; DualRAM:inst4|aVal[0..15]                            ; DualRAM:inst4|mem_rtl_0                       ; RAM  ;
 ; DualRAM:inst4|bVal[0..15]                            ; DualRAM:inst4|mem_rtl_0                       ; RAM  ;
 +------------------------------------------------------+-----------------------------------------------+------+
@@ -627,9 +644,9 @@ Encoding Type:  One-Hot
 ; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |comp16|uart_io:inst1|uart:inst01|transmitter:uart_tx|Selector3                    ;
 ; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |comp16|uart_io:inst1|uart:inst01|transmitter:uart_tx|Selector2                    ;
 ; 16:1               ; 8 bits    ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |comp16|debugOut:inst8|out[4]                                                      ;
-; 10:1               ; 7 bits    ; 42 LEs        ; 42 LEs               ; 0 LEs                  ; No         ; |comp16|ioIn                                                                       ;
 ; 1:1                ; 15 bits   ; 0 LEs         ; 0 LEs                ; 0 LEs                  ; No         ; |comp16|alu:inst3|Add0                                                             ;
-; 12:1               ; 6 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |comp16|ioIn                                                                       ;
+; 12:1               ; 7 bits    ; 56 LEs        ; 56 LEs               ; 0 LEs                  ; No         ; |comp16|ioIn                                                                       ;
+; 14:1               ; 6 bits    ; 54 LEs        ; 54 LEs               ; 0 LEs                  ; No         ; |comp16|ioIn                                                                       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------+
 
 
@@ -649,6 +666,15 @@ Encoding Type:  One-Hot
 +---------------------------------+--------------------+------+--------------------------------------------------+
 ; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                ;
 +---------------------------------+--------------------+------+--------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Source assignments for prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0|altsyncram_55c1:auto_generated ;
++---------------------------------+--------------------+------+-----------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                            ;
++---------------------------------+--------------------+------+-----------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                             ;
++---------------------------------+--------------------+------+-----------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------+
@@ -1075,6 +1101,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: prgm_rom_io:inst16|io_port:inst1 ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; io_port        ; 14    ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: prgm_rom_io:inst16|io_port:inst2 ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; io_port        ; 15    ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +---------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: vga_io:inst9|VGA_controller:instv1 ;
 +----------------+----------------------------------+-----------------------------+
@@ -1495,6 +1541,67 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++--------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0 ;
++------------------------------------+--------------------------+----------------------------------------+
+; Parameter Name                     ; Value                    ; Type                                   ;
++------------------------------------+--------------------------+----------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                        ; Untyped                                ;
+; AUTO_CARRY_CHAINS                  ; ON                       ; AUTO_CARRY                             ;
+; IGNORE_CARRY_BUFFERS               ; OFF                      ; IGNORE_CARRY                           ;
+; AUTO_CASCADE_CHAINS                ; ON                       ; AUTO_CASCADE                           ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                      ; IGNORE_CASCADE                         ;
+; WIDTH_BYTEENA                      ; 1                        ; Untyped                                ;
+; OPERATION_MODE                     ; ROM                      ; Untyped                                ;
+; WIDTH_A                            ; 16                       ; Untyped                                ;
+; WIDTHAD_A                          ; 16                       ; Untyped                                ;
+; NUMWORDS_A                         ; 65536                    ; Untyped                                ;
+; OUTDATA_REG_A                      ; UNREGISTERED             ; Untyped                                ;
+; ADDRESS_ACLR_A                     ; NONE                     ; Untyped                                ;
+; OUTDATA_ACLR_A                     ; NONE                     ; Untyped                                ;
+; WRCONTROL_ACLR_A                   ; NONE                     ; Untyped                                ;
+; INDATA_ACLR_A                      ; NONE                     ; Untyped                                ;
+; BYTEENA_ACLR_A                     ; NONE                     ; Untyped                                ;
+; WIDTH_B                            ; 1                        ; Untyped                                ;
+; WIDTHAD_B                          ; 1                        ; Untyped                                ;
+; NUMWORDS_B                         ; 1                        ; Untyped                                ;
+; INDATA_REG_B                       ; CLOCK1                   ; Untyped                                ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                   ; Untyped                                ;
+; RDCONTROL_REG_B                    ; CLOCK1                   ; Untyped                                ;
+; ADDRESS_REG_B                      ; CLOCK1                   ; Untyped                                ;
+; OUTDATA_REG_B                      ; UNREGISTERED             ; Untyped                                ;
+; BYTEENA_REG_B                      ; CLOCK1                   ; Untyped                                ;
+; INDATA_ACLR_B                      ; NONE                     ; Untyped                                ;
+; WRCONTROL_ACLR_B                   ; NONE                     ; Untyped                                ;
+; ADDRESS_ACLR_B                     ; NONE                     ; Untyped                                ;
+; OUTDATA_ACLR_B                     ; NONE                     ; Untyped                                ;
+; RDCONTROL_ACLR_B                   ; NONE                     ; Untyped                                ;
+; BYTEENA_ACLR_B                     ; NONE                     ; Untyped                                ;
+; WIDTH_BYTEENA_A                    ; 1                        ; Untyped                                ;
+; WIDTH_BYTEENA_B                    ; 1                        ; Untyped                                ;
+; RAM_BLOCK_TYPE                     ; AUTO                     ; Untyped                                ;
+; BYTE_SIZE                          ; 8                        ; Untyped                                ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                ; Untyped                                ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ     ; Untyped                                ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ     ; Untyped                                ;
+; INIT_FILE                          ; IO/prgm_rom/prgm_rom.mif ; Untyped                                ;
+; INIT_FILE_LAYOUT                   ; PORT_A                   ; Untyped                                ;
+; MAXIMUM_DEPTH                      ; 0                        ; Untyped                                ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL                   ; Untyped                                ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL                   ; Untyped                                ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL                   ; Untyped                                ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                   ; Untyped                                ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN          ; Untyped                                ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN          ; Untyped                                ;
+; ENABLE_ECC                         ; FALSE                    ; Untyped                                ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                    ; Untyped                                ;
+; WIDTH_ECCSTATUS                    ; 3                        ; Untyped                                ;
+; DEVICE_FAMILY                      ; Cyclone V                ; Untyped                                ;
+; CBXI_PARAMETER                     ; altsyncram_55c1          ; Untyped                                ;
++------------------------------------+--------------------------+----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0 ;
 +------------------------------------+----------------------+-----------------------------------------+
@@ -1683,7 +1790,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+----------------------------------------------------------+
 ; Name                                      ; Value                                                    ;
 +-------------------------------------------+----------------------------------------------------------+
-; Number of entity instances                ; 5                                                        ;
+; Number of entity instances                ; 6                                                        ;
 ; Entity Instance                           ; vga_io:inst9|vgaTextGen:instv2|altsyncram:text_mem_rtl_0 ;
 ;     -- OPERATION_MODE                     ; DUAL_PORT                                                ;
 ;     -- WIDTH_A                            ; 16                                                       ;
@@ -1703,6 +1810,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- WIDTH_B                            ; 16                                                       ;
 ;     -- NUMWORDS_B                         ; 1000                                                     ;
 ;     -- ADDRESS_REG_B                      ; CLOCK0                                                   ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                             ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                     ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                ;
+; Entity Instance                           ; prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0    ;
+;     -- OPERATION_MODE                     ; ROM                                                      ;
+;     -- WIDTH_A                            ; 16                                                       ;
+;     -- NUMWORDS_A                         ; 65536                                                    ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                             ;
+;     -- WIDTH_B                            ; 1                                                        ;
+;     -- NUMWORDS_B                         ; 1                                                        ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                                   ;
 ;     -- OUTDATA_REG_B                      ; UNREGISTERED                                             ;
 ;     -- RAM_BLOCK_TYPE                     ; AUTO                                                     ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                ;
@@ -1747,36 +1865,36 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 765                         ;
-;     ENA               ; 450                         ;
+; arriav_ff             ; 784                         ;
+;     ENA               ; 466                         ;
 ;     ENA SCLR          ; 66                          ;
 ;     ENA SLD           ; 16                          ;
 ;     SCLR              ; 50                          ;
 ;     SLD               ; 16                          ;
-;     plain             ; 167                         ;
-; arriav_lcell_comb     ; 2136                        ;
+;     plain             ; 170                         ;
+; arriav_lcell_comb     ; 2141                        ;
 ;     arith             ; 269                         ;
 ;         1 data inputs ; 196                         ;
 ;         2 data inputs ; 4                           ;
 ;         3 data inputs ; 45                          ;
 ;         4 data inputs ; 14                          ;
 ;         5 data inputs ; 10                          ;
-;     extend            ; 60                          ;
-;         7 data inputs ; 60                          ;
-;     normal            ; 1791                        ;
+;     extend            ; 137                         ;
+;         7 data inputs ; 137                         ;
+;     normal            ; 1719                        ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 6                           ;
-;         2 data inputs ; 45                          ;
-;         3 data inputs ; 111                         ;
-;         4 data inputs ; 172                         ;
-;         5 data inputs ; 407                         ;
-;         6 data inputs ; 1049                        ;
+;         2 data inputs ; 48                          ;
+;         3 data inputs ; 126                         ;
+;         4 data inputs ; 181                         ;
+;         5 data inputs ; 334                         ;
+;         6 data inputs ; 1023                        ;
 ;     shared            ; 16                          ;
 ;         2 data inputs ; 16                          ;
 ; arriav_mac            ; 1                           ;
 ; boundary_port         ; 29                          ;
 ; generic_pll           ; 4                           ;
-; stratixv_ram_block    ; 176                         ;
+; stratixv_ram_block    ; 304                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 7.50                        ;
 ; Average LUT depth     ; 4.38                        ;
@@ -1788,7 +1906,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:13     ;
+; Top            ; 00:00:12     ;
 +----------------+--------------+
 
 
@@ -1798,7 +1916,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sat Apr 28 17:42:34 2018
+    Info: Processing started: Tue May  1 18:04:49 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off comp16 -c comp16
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
 Warning (20031): Parallel compilation is enabled for 4 processors, but there are only 2 processors in the system. Runtime may increase due to over usage of the processor space.
@@ -1866,6 +1984,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file IO/ps2/
     Info (12023): Found entity 1: ps2_fifo File: /home/edward/comp16/IO/ps2/ps2_fifo.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file IO/ps2/ps2_to_ascii.v
     Info (12023): Found entity 1: ps2_to_ascii File: /home/edward/comp16/IO/ps2/ps2_to_ascii.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file IO/prgm_rom/prgm_rom.v
+    Info (12023): Found entity 1: prmg_rom File: /home/edward/comp16/IO/prgm_rom/prgm_rom.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file IO/prgm_rom/prgm_rom_io.bdf
+    Info (12023): Found entity 1: prgm_rom_io
 Info (12127): Elaborating entity "comp16" for the top level hierarchy
 Info (12128): Elaborating entity "uart_io" for hierarchy "uart_io:inst1"
 Info (12128): Elaborating entity "uart" for hierarchy "uart_io:inst1|uart:inst01"
@@ -1960,6 +2082,11 @@ Warning (10230): Verilog HDL assignment warning at ps2_fifo.v(21): truncated val
 Warning (10230): Verilog HDL assignment warning at ps2_fifo.v(26): truncated value with size 32 to match size of target (8) File: /home/edward/comp16/IO/ps2/ps2_fifo.v Line: 26
 Info (12128): Elaborating entity "io_port" for hierarchy "ps2_io:inst12|io_port:instp2"
 Info (12128): Elaborating entity "io_port" for hierarchy "io_port:inst7"
+Info (12128): Elaborating entity "prgm_rom_io" for hierarchy "prgm_rom_io:inst16"
+Info (12128): Elaborating entity "io_port" for hierarchy "prgm_rom_io:inst16|io_port:inst1"
+Info (12128): Elaborating entity "io_port" for hierarchy "prgm_rom_io:inst16|io_port:inst2"
+Info (12128): Elaborating entity "prmg_rom" for hierarchy "prgm_rom_io:inst16|prmg_rom:inst"
+Warning (10858): Verilog HDL warning at prgm_rom.v(5): object mem used but never assigned File: /home/edward/comp16/IO/prgm_rom/prgm_rom.v Line: 5
 Info (12128): Elaborating entity "vga_io" for hierarchy "vga_io:inst9"
 Info (12128): Elaborating entity "VGA_controller" for hierarchy "vga_io:inst9|VGA_controller:instv1"
 Info (12128): Elaborating entity "io_port" for hierarchy "vga_io:inst9|io_port:instv3"
@@ -2063,7 +2190,7 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 140
     Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 140
     Warning (13048): Converted tri-state node feeding "central:inst|regFile" into a selector File: /home/edward/comp16/central.v Line: 140
-Info (19000): Inferred 5 megafunctions from design logic
+Info (19000): Inferred 6 megafunctions from design logic
     Info (276029): Inferred altsyncram megafunction from the following design logic: "vga_io:inst9|vgaTextGen:instv2|text_mem_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
         Info (286033): Parameter WIDTH_A set to 16
@@ -2094,6 +2221,17 @@ Info (19000): Inferred 5 megafunctions from design logic
         Info (286033): Parameter ADDRESS_REG_B set to CLOCK0
         Info (286033): Parameter INDATA_ACLR_A set to NONE
         Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "prgm_rom_io:inst16|prmg_rom:inst|mem_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to ROM
+        Info (286033): Parameter WIDTH_A set to 16
+        Info (286033): Parameter WIDTHAD_A set to 16
+        Info (286033): Parameter NUMWORDS_A set to 65536
+        Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_A set to NONE
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+        Info (286033): Parameter INIT_FILE set to IO/prgm_rom/prgm_rom.mif
     Info (276029): Inferred altsyncram megafunction from the following design logic: "ps2_io:inst12|ps2_fifo:instp3|mem_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
         Info (286033): Parameter WIDTH_A set to 8
@@ -2179,6 +2317,24 @@ Info (12133): Instantiated megafunction "vga_io:inst9|vgaTextGen:instv2|altsyncr
     Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_qri1.tdf
     Info (12023): Found entity 1: altsyncram_qri1 File: /home/edward/comp16/db/altsyncram_qri1.tdf Line: 27
+Info (12130): Elaborated megafunction instantiation "prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0"
+Info (12133): Instantiated megafunction "prgm_rom_io:inst16|prmg_rom:inst|altsyncram:mem_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "ROM"
+    Info (12134): Parameter "WIDTH_A" = "16"
+    Info (12134): Parameter "WIDTHAD_A" = "16"
+    Info (12134): Parameter "NUMWORDS_A" = "65536"
+    Info (12134): Parameter "OUTDATA_REG_A" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+    Info (12134): Parameter "INIT_FILE" = "IO/prgm_rom/prgm_rom.mif"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_55c1.tdf
+    Info (12023): Found entity 1: altsyncram_55c1 File: /home/edward/comp16/db/altsyncram_55c1.tdf Line: 31
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_61a.tdf
+    Info (12023): Found entity 1: decode_61a File: /home/edward/comp16/db/decode_61a.tdf Line: 22
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_chb.tdf
+    Info (12023): Found entity 1: mux_chb File: /home/edward/comp16/db/mux_chb.tdf Line: 22
 Info (12130): Elaborated megafunction instantiation "ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0"
 Info (12133): Instantiated megafunction "ps2_io:inst12|ps2_fifo:instp3|altsyncram:mem_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
@@ -2221,10 +2377,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_4nu1 File: /home/edward/comp16/db/altsyncram_4nu1.tdf Line: 33
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_dla.tdf
     Info (12023): Found entity 1: decode_dla File: /home/edward/comp16/db/decode_dla.tdf Line: 22
-Info (12021): Found 1 design units, including 1 entities, in source file db/decode_61a.tdf
-    Info (12023): Found entity 1: decode_61a File: /home/edward/comp16/db/decode_61a.tdf Line: 22
-Info (12021): Found 1 design units, including 1 entities, in source file db/mux_chb.tdf
-    Info (12023): Found entity 1: mux_chb File: /home/edward/comp16/db/mux_chb.tdf Line: 22
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 3 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file /home/edward/comp16/output_files/comp16.map.smsg
@@ -2238,18 +2390,18 @@ Warning: RST port on the PLL is not properly connected on instance pll:inst10|pl
     Info: Must be connected
 Warning: RST port on the PLL is not properly connected on instance pll_vga:inst14|pll_vga_0002:pll_vga_inst|altera_pll:altera_pll_i|general[1].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: /home/edward/intelFPGA_lite/17.1/quartus/libraries/megafunctions/altera_pll.v Line: 748
     Info: Must be connected
-Info (21057): Implemented 2621 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2773 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 19 output pins
-    Info (21061): Implemented 2411 logic cells
-    Info (21064): Implemented 176 RAM segments
+    Info (21061): Implemented 2435 logic cells
+    Info (21064): Implemented 304 RAM segments
     Info (21065): Implemented 4 PLLs
     Info (21062): Implemented 1 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 44 warnings
-    Info: Peak virtual memory: 1188 megabytes
-    Info: Processing ended: Sat Apr 28 17:43:13 2018
-    Info: Elapsed time: 00:00:39
-    Info: Total CPU time (on all processors): 00:01:03
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 45 warnings
+    Info: Peak virtual memory: 1160 megabytes
+    Info: Processing ended: Tue May  1 18:05:22 2018
+    Info: Elapsed time: 00:00:33
+    Info: Total CPU time (on all processors): 00:00:58
 
 
 +------------------------------------------+

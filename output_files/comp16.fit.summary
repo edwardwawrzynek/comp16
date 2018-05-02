@@ -1,16 +1,16 @@
-Fitter Status : Successful - Sat Apr 28 17:45:45 2018
+Fitter Status : Successful - Tue May  1 18:08:29 2018
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : comp16
 Top-level Entity Name : comp16
 Family : Cyclone V
 Device : 5CSEMA4U23C6
 Timing Models : Final
-Logic utilization (in ALMs) : 1,529 / 15,880 ( 10 % )
-Total registers : 818
+Logic utilization (in ALMs) : 1,609 / 15,880 ( 10 % )
+Total registers : 852
 Total pins : 29 / 314 ( 9 % )
 Total virtual pins : 0
-Total block memory bits : 1,084,672 / 2,764,800 ( 39 % )
-Total RAM Blocks : 134 / 270 ( 50 % )
+Total block memory bits : 2,133,248 / 2,764,800 ( 77 % )
+Total RAM Blocks : 262 / 270 ( 97 % )
 Total DSP Blocks : 1 / 84 ( 1 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
